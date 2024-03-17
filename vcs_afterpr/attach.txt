@@ -1,0 +1,9 @@
+#要将以下语句 附加到tb测试文件内;目的是生成发送到吧数据库 和 反标sdf时序文件;
+initial begin
+	$fsdbDumpfile("aestop_io_1020.fsdb");
+	$fsdbDumpvars;
+end
+initial begin
+	$sdf_annotate("aestop_io.sdf",aestop_io,,,"MINIMUM","1:1:1","FROM_MTM");
+end
+		

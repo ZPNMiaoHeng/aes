@@ -1,0 +1,1131 @@
+ 
+****************************************
+Report : design
+        -physical
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 08:30:42 2023
+****************************************
+
+****************************** P&R Summary ********************************
+Date : Sun Jun  4 08:30:42 2023
+Machine Host Name: cad09
+Working Directory: /home/qst/workspace2023/aes/icc0512/run
+Library Name:      aestop_LIB
+Cell Name:         floorplan.CEL;1
+Design Statistics:
+    Number of Module Cells:        22992
+    Number of Pins:                150601
+    Number of IO Pins:             22
+    Number of Nets:                21983
+    Average Pins Per Net (Signal): 3.35271
+
+Chip Utilization:
+    Total Std Cell Area:           39692.12
+    Core Size:     width 229.88, height 230.00; area 52716.08
+    Chip Size:     width 269.88, height 270.00; area 72867.60
+    Std cells utilization:         75.29% 
+    Cell/Core Ratio:               75.29%
+    Cell/Chip Ratio:               54.47%
+    Number of Cell Rows:            182
+
+Master Instantiation:
+	MasterName	Type	InstCount
+	=================================
+	SEN_FILL1	STD	4743
+	SEN_FILL2	STD	2750
+	SEN_FILL3	STD	1954
+	SEN_ND2_1	STD	1863
+	SEN_INV_S_1	STD	1422
+	SEN_INV_1	STD	1275
+	SEN_TAPDS1T5	STD	1105
+	SEN_ND4_1	STD	1055
+	SEN_FILL4	STD	1055
+	SEN_FILL6	STD	870
+	SEN_FILL8	STD	859
+	SEN_FILL5	STD	690
+	SEN_NR2_G_1	STD	675
+	SEN_FILL16	STD	599
+	SEN_NR2_S_1	STD	534
+	SEN_ND2_2	STD	444
+	SEN_INV_2	STD	405
+	SEN_AN2_1	STD	402
+	SEN_ND2_0P5	STD	399
+	SEN_DCAP4	STD	383
+	SEN_ND3_T_0P65	STD	367
+	SEN_OR2_1	STD	353
+	SEN_FILL12	STD	339
+	SEN_AOI22_1	STD	309
+	SEN_ND3_1	STD	306
+	SEN_NR4_1	STD	286
+	SEN_OR3_1	STD	232
+	SEN_NR2_1	STD	215
+	SEN_NR2_G_2	STD	215
+	SEN_FILL32	STD	215
+	SEN_OR4B_1	STD	208
+	SEN_OAI211_1	STD	206
+	SEN_NR3_1	STD	187
+	SEN_NR2_T_1	STD	184
+	SEN_CAPR8	STD	182
+	SEN_CAPL8	STD	182
+	SEN_ND2_G_3	STD	179
+	SEN_FDPRBQ_V2_1P5	STD	177
+	SEN_MUX2_G_1	STD	174
+	SEN_DCAP8	STD	169
+	SEN_FDPSBQ_1	STD	155
+	SEN_ND2_G_2	STD	152
+	SEN_NR4_2	STD	151
+	SEN_INV_S_0P5	STD	146
+	SEN_ND2_T_8	STD	142
+	SEN_NR2_G_3	STD	127
+	SEN_ND2_T_6	STD	122
+	SEN_ND4_S_1P5	STD	121
+	SEN_EO2_S_0P5	STD	120
+	SEN_OAI211_2	STD	119
+	SEN_NR2_S_2	STD	118
+	SEN_AN3_1	STD	117
+	SEN_ND2_G_1	STD	110
+	SEN_AOI22_S_1	STD	108
+	SEN_ND4B_1	STD	106
+	SEN_EO2_S_6	STD	106
+	SEN_AN4B_1	STD	103
+	SEN_ND2_T_3	STD	102
+	SEN_INV_8	STD	98
+	SEN_EO2_2	STD	91
+	SEN_NR3_G_2	STD	90
+	SEN_NR4_3	STD	80
+	SEN_NR2_T_2	STD	80
+	SEN_ND2B_S_1	STD	78
+	SEN_ND4_S_0P5	STD	78
+	SEN_INV_S_2	STD	76
+	SEN_NR3_T_0P65	STD	76
+	SEN_INV_S_12	STD	76
+	SEN_INV_4	STD	75
+	SEN_NR2_T_3	STD	72
+	SEN_ND2_T_10	STD	72
+	SEN_NR2_G_4	STD	71
+	SEN_NR3_T_2	STD	68
+	SEN_INV_S_0P65	STD	68
+	SEN_INV_6	STD	67
+	SEN_OAI21_S_1	STD	67
+	SEN_AN2_6	STD	67
+	SEN_FDPRBQ_4	STD	66
+	SEN_DCAP16	STD	66
+	SEN_ND2_S_0P5	STD	65
+	SEN_ND3_T_2	STD	62
+	SEN_ND2_T_12	STD	61
+	SEN_AOI21_S_1	STD	60
+	SEN_MUXI2_S_0P5	STD	60
+	SEN_ND4_S_1	STD	60
+	SEN_ND2_G_6	STD	59
+	SEN_ND2_G_4	STD	59
+	SEN_NR2_T_10	STD	58
+	SEN_INV_3	STD	55
+	SEN_OA21_2	STD	55
+	SEN_EO3_DG_4	STD	53
+	SEN_EO2_S_8	STD	53
+	SEN_FILL64	STD	52
+	SEN_AOAI211_0P75	STD	51
+	SEN_AN4B_2	STD	51
+	SEN_AN4_1	STD	51
+	SEN_ND2_T_1	STD	49
+	SEN_OAI21_1	STD	48
+	SEN_EN2_S_6	STD	47
+	SEN_MUXI2_DGY2_16	STD	46
+	SEN_ND2_T_5	STD	46
+	SEN_FDPSBQ_4	STD	45
+	SEN_OA21_V2_1	STD	45
+	SEN_EN2_S_0P5	STD	44
+	SEN_INV_20	STD	44
+	SEN_AOI211_1	STD	43
+	SEN_NR2_T_5	STD	43
+	SEN_ND2_S_4	STD	43
+	SEN_ND2_T_16	STD	43
+	SEN_OA21_V2_2	STD	43
+	SEN_INV_16	STD	42
+	SEN_OAI211_0P5	STD	41
+	SEN_EO2_S_1	STD	40
+	SEN_ND3_T_1P5	STD	39
+	SEN_ND2_T_2	STD	39
+	SEN_ND3_S_0P5	STD	39
+	SEN_INV_S_24	STD	39
+	SEN_AOI31_G_1	STD	39
+	SEN_ND4_S_3	STD	38
+	SEN_ND4_2	STD	38
+	SEN_NR2_T_4	STD	38
+	SEN_INV_S_16	STD	38
+	SEN_OR4B_2	STD	37
+	SEN_FDPSBQ_2	STD	36
+	SEN_ND2_S_3	STD	35
+	SEN_ND3_T_4	STD	35
+	SEN_ND3_2	STD	35
+	SEN_BUF_S_1	STD	35
+	SEN_OAI31_3	STD	34
+	SEN_OAI31_G_1	STD	34
+	SEN_EO2_4	STD	34
+	SEN_FDPRBQ_V2_3	STD	34
+	SEN_EN2_S_8	STD	34
+	SEN_NR2_T_8	STD	34
+	SEN_AO31_1	STD	33
+	SEN_OAOI211_0P5	STD	33
+	SEN_OAI31_0P75	STD	33
+	SEN_EN2_2	STD	32
+	SEN_NR2_S_3	STD	32
+	SEN_DCAP32	STD	32
+	SEN_OAI211_8	STD	31
+	SEN_INV_32	STD	31
+	SEN_OAOI211_3	STD	30
+	SEN_INV_12	STD	30
+	SEN_ND4B_2	STD	29
+	SEN_NR4B_4	STD	29
+	SEN_OR3B_1	STD	29
+	SEN_ND2_3	STD	28
+	SEN_EO2_1	STD	28
+	SEN_AO22_DG_1	STD	28
+	SEN_EN4_DG_4	STD	28
+	SEN_ND2_S_1	STD	28
+	SEN_OA21_4	STD	28
+	SEN_AOI31_1	STD	27
+	SEN_INV_24	STD	27
+	SEN_OAI21_G_1	STD	27
+	SEN_ND2_S_20	STD	27
+	SEN_NR2_S_5	STD	27
+	SEN_ND3_S_4	STD	27
+	SEN_BUF_2	STD	26
+	SEN_NR4B_2	STD	26
+	SEN_EO2_S_5	STD	26
+	SEN_ND2_T_4	STD	26
+	SEN_ND2_S_5	STD	26
+	SEN_AOI21_G_1	STD	26
+	SEN_INV_S_8	STD	26
+	SEN_AOI22_T_1	STD	25
+	SEN_AOI21_1	STD	25
+	SEN_INV_S_6	STD	24
+	SEN_NR3_G_1	STD	24
+	SEN_AN2_DG_4	STD	24
+	SEN_NR3_2	STD	23
+	SEN_OAOI211_2	STD	23
+	SEN_AN2_2	STD	23
+	SEN_AO21B_1	STD	23
+	SEN_EO2_G_4	STD	23
+	SEN_NR2_T_6	STD	23
+	SEN_NR2_S_4	STD	23
+	SEN_BUF_S_3	STD	22
+	SEN_EO2_G_8	STD	22
+	SEN_ND2_G_8	STD	22
+	SEN_NR2_G_6	STD	22
+	SEN_NR2_2	STD	22
+	SEN_ND2B_V1_2	STD	21
+	SEN_ND2_4	STD	21
+	SEN_OR3_2	STD	21
+	SEN_EO2_G_1	STD	21
+	SEN_EO2_G_2	STD	21
+	SEN_MUX2_S_0P5	STD	21
+	SEN_AO21_1	STD	21
+	SEN_NR4B_1	STD	20
+	SEN_AN2_DG_3	STD	20
+	SEN_INV_10	STD	20
+	SEN_ND4_S_4	STD	19
+	SEN_AO211_1	STD	19
+	SEN_ND2_G_12	STD	19
+	SEN_ND2_S_2	STD	19
+	SEN_ND2_G_10	STD	19
+	SEN_AN2_S_8	STD	19
+	SEN_AOI22_0P5	STD	19
+	SEN_OR4B_3	STD	18
+	SEN_AN4B_4	STD	18
+	SEN_EN2_G_4	STD	18
+	SEN_OR3_0P65	STD	17
+	SEN_EN2_G_1	STD	17
+	SEN_INV_S_4	STD	17
+	SEN_ND3_4	STD	17
+	SEN_OAI211_3	STD	16
+	SEN_OAOI211_V2_1	STD	16
+	SEN_ND4B_4	STD	16
+	SEN_AN2_8	STD	16
+	SEN_ND3_3	STD	16
+	SEN_NR2_S_12	STD	16
+	SEN_EN2_S_1	STD	16
+	SEN_ND2B_S_2	STD	16
+	SEN_NR3_T_3	STD	15
+	SEN_AN2_S_0P5	STD	15
+	SEN_EN4_DGY2_8	STD	15
+	SEN_NR2_G_8	STD	15
+	SEN_NR2_T_12	STD	15
+	SEN_NR2_S_8	STD	15
+	SEN_NR2_T_2P5	STD	14
+	SEN_AOAI211_1	STD	14
+	SEN_AN6_1	STD	14
+	SEN_AOI31_0P5	STD	14
+	SEN_EO3_4	STD	14
+	SEN_EO3_6	STD	14
+	SEN_EN2_G_6	STD	14
+	SEN_OR2_2	STD	14
+	SEN_NR2_G_5	STD	14
+	SEN_OAI31_2	STD	13
+	SEN_NR3_T_4	STD	13
+	SEN_AN2_S_2	STD	13
+	SEN_NR2_0P5	STD	13
+	SEN_BUF_4	STD	12
+	SEN_AOI22_T_2	STD	12
+	SEN_ND3B_DG_1	STD	12
+	SEN_OA21_1	STD	12
+	SEN_ND4_S_6	STD	12
+	SEN_EO2_0P5	STD	12
+	SEN_EN4_DG_2	STD	12
+	SEN_ND4_S_2	STD	12
+	SEN_EO2_S_3	STD	12
+	SEN_ND3_S_1	STD	12
+	SEN_ND2_G_16	STD	12
+	SEN_INV_5	STD	12
+	SEN_OAI31_G_2	STD	12
+	SEN_INV_S_0P8	STD	12
+	SEN_NR4_6	STD	11
+	SEN_ND3_T_8	STD	11
+	SEN_EN2_G_2	STD	11
+	SEN_EO4_DG_4	STD	11
+	SEN_ND2_T_2P5	STD	11
+	SEN_NR2_3	STD	11
+	SEN_ND2_5	STD	11
+	SEN_AN3_6	STD	11
+	SEN_ND2_S_0P8	STD	11
+	SEN_ND2_S_0P65	STD	11
+	SEN_OAI21_G_2	STD	11
+	SEN_INV_S_32	STD	11
+	SEN_NR3_T_6	STD	11
+	SEN_DCAP64	STD	11
+	SEN_NR2_T_1P5	STD	10
+	SEN_NR3_T_1P5	STD	10
+	SEN_AOI31_2	STD	10
+	SEN_AN2_4	STD	10
+	SEN_EO3_1	STD	10
+	SEN_BUF_16	STD	10
+	SEN_NR2_S_16	STD	10
+	SEN_AO21_2	STD	10
+	SEN_BUF_D_12	STD	10
+	SEN_ND3_T_0P5	STD	10
+	SEN_INV_0P8	STD	10
+	SEN_OAOI211_G_2	STD	10
+	SEN_OAOI211_1	STD	10
+	SEN_OR4_1	STD	9
+	SEN_AOI22_T_1P5	STD	9
+	SEN_NR4_4	STD	9
+	SEN_NR2B_2	STD	9
+	SEN_NR2_T_16	STD	9
+	SEN_ND2_S_24	STD	9
+	SEN_EO4_DG_3	STD	9
+	SEN_NR2_S_10	STD	9
+	SEN_ND3_S_2	STD	9
+	SEN_AN2_3	STD	8
+	SEN_AN2_S_3	STD	8
+	SEN_AOAI211_3	STD	8
+	SEN_ND2B_4	STD	8
+	SEN_OAI22_S_1	STD	8
+	SEN_BUF_8	STD	8
+	SEN_EN2_0P5	STD	8
+	SEN_EN2_5	STD	8
+	SEN_AN3_3	STD	8
+	SEN_EN2_G_12	STD	8
+	SEN_MUX2AN2_DG_1	STD	8
+	SEN_AN3_S_2	STD	8
+	SEN_ND3_6	STD	8
+	SEN_INV_S_10	STD	8
+	SEN_OAI21_2	STD	7
+	SEN_AOI211_3	STD	7
+	SEN_OAI21_S_3	STD	7
+	SEN_EO3_3	STD	7
+	SEN_AOAI211_G_1	STD	7
+	SEN_EN2_S_3	STD	7
+	SEN_OAI31_T_0P5	STD	7
+	SEN_EN2_GY2_16	STD	7
+	SEN_ND2_1P5	STD	7
+	SEN_EO4_DG_2	STD	7
+	SEN_OR2_3	STD	7
+	SEN_OA21_V2_4	STD	7
+	SEN_ND2_8	STD	7
+	SEN_INV_0P65	STD	7
+	SEN_AN3B_3	STD	6
+	SEN_OR3_3	STD	6
+	SEN_NR3_T_0P8	STD	6
+	SEN_OR3B_2	STD	6
+	SEN_NR3B_DG_1	STD	6
+	SEN_AN3B_0P5	STD	6
+	SEN_AOI22_2	STD	6
+	SEN_ND2B_V1DG_4	STD	6
+	SEN_ND2_6	STD	6
+	SEN_EN2_4	STD	6
+	SEN_EO4_DGY2_8	STD	6
+	SEN_BUF_S_2	STD	6
+	SEN_MUXI2_DG_10	STD	6
+	SEN_OAI22_S_0P5	STD	6
+	SEN_INV_S_5	STD	6
+	SEN_AN3_4	STD	6
+	SEN_BUF_12	STD	6
+	SEN_AN2_DG_1	STD	6
+	SEN_NR2_G_12	STD	6
+	SEN_AOI31_G_2	STD	6
+	SEN_EN4_DG_3	STD	6
+	SEN_EN3_1	STD	6
+	SEN_EO2_G_10	STD	6
+	SEN_OAOI211_4	STD	6
+	SEN_ND2_0P8	STD	6
+	SEN_OA31_1	STD	5
+	SEN_INV_S_3	STD	5
+	SEN_ND3_T_1	STD	5
+	SEN_AN3B_2	STD	5
+	SEN_AOI21_2	STD	5
+	SEN_AOI21B_2	STD	5
+	SEN_NR4_0P5	STD	5
+	SEN_AO31_2	STD	5
+	SEN_AN6_2	STD	5
+	SEN_ND3_T_6	STD	5
+	SEN_AN3B_1	STD	5
+	SEN_OAI211_4	STD	5
+	SEN_EN2_3	STD	5
+	SEN_MUXI2_DG_8	STD	5
+	SEN_BUF_3	STD	5
+	SEN_NR2_G_0P8	STD	5
+	SEN_NR2_G_10	STD	5
+	SEN_AN3_S_8	STD	5
+	SEN_ND2_G_24	STD	5
+	SEN_EN2_DG_2	STD	5
+	SEN_ND2_0P65	STD	5
+	SEN_BUF_D_8	STD	5
+	SEN_EN2_G_8	STD	5
+	SEN_NR2_16	STD	5
+	SEN_AOI211_G_2	STD	5
+	SEN_NR2_G_1P5	STD	5
+	SEN_OR2_12	STD	5
+	SEN_NR2B_1	STD	5
+	SEN_MUXI2_DG_12	STD	5
+	SEN_AN2_12	STD	5
+	SEN_AOI211_G_1	STD	5
+	SEN_ND3_0P5	STD	5
+	SEN_OA21_8	STD	5
+	SEN_NR3_T_10	STD	5
+	SEN_ND2B_V1_3	STD	4
+	SEN_AOI21_S_2	STD	4
+	SEN_AN3_2	STD	4
+	SEN_ND3_T_3	STD	4
+	SEN_ND3_T_2P5	STD	4
+	SEN_NR2B_V1_2	STD	4
+	SEN_AOI211_2	STD	4
+	SEN_ND2B_S_0P5	STD	4
+	SEN_OAI21B_4	STD	4
+	SEN_EO2_8	STD	4
+	SEN_AOI22_3	STD	4
+	SEN_AN3_8	STD	4
+	SEN_BUF_D_4	STD	4
+	SEN_BUF_24	STD	4
+	SEN_ND3B_V1DG_1	STD	4
+	SEN_NR3_0P5	STD	4
+	SEN_ND3_T_10	STD	4
+	SEN_EO2_S_2	STD	4
+	SEN_ND2B_3	STD	4
+	SEN_BUF_D_5	STD	4
+	SEN_BUF_20	STD	4
+	SEN_OAI31_1	STD	4
+	SEN_EO2_GY2_16	STD	4
+	SEN_NR2B_V1DG_4	STD	4
+	SEN_NR3_G_3	STD	4
+	SEN_NR2_S_0P65	STD	4
+	SEN_EO3_DGY2_10	STD	4
+	SEN_AOAI211_G_6	STD	4
+	SEN_AO21_DG_1	STD	4
+	SEN_NR2_T_0P5	STD	4
+	SEN_OR2_DG_1	STD	4
+	SEN_INV_1P5	STD	4
+	SEN_ND4_4	STD	4
+	SEN_AOI22_T_4	STD	4
+	SEN_ND2B_12	STD	4
+	SEN_NR2_T_0P8	STD	3
+	SEN_AOI21_T_2	STD	3
+	SEN_AN2_S_1P5	STD	3
+	SEN_AO21B_2	STD	3
+	SEN_OR4_2	STD	3
+	SEN_NR3_T_1	STD	3
+	SEN_AOAI211_2	STD	3
+	SEN_AOAI211_6	STD	3
+	SEN_BUF_1	STD	3
+	SEN_AO21B_6	STD	3
+	SEN_OAI21_S_6	STD	3
+	SEN_EO2_3	STD	3
+	SEN_MUXI2_DG_5	STD	3
+	SEN_AOI21B_8	STD	3
+	SEN_OAI21B_8	STD	3
+	SEN_AOI21_T_4	STD	3
+	SEN_FDPHRBSBQ_1	STD	3
+	SEN_FDPRBQ_2	STD	3
+	SEN_ND3_8	STD	3
+	SEN_ND2_24	STD	3
+	SEN_ND2_20	STD	3
+	SEN_BUF_D_16	STD	3
+	SEN_EN2_6	STD	3
+	SEN_OR2_DG_3	STD	3
+	SEN_ND2B_1	STD	3
+	SEN_ND2_T_0P5	STD	3
+	SEN_NR3_4	STD	3
+	SEN_AN3_S_4	STD	3
+	SEN_OR2_10	STD	3
+	SEN_AN2_16	STD	3
+	SEN_EN2_8	STD	3
+	SEN_OAI21B_1	STD	3
+	SEN_ND2_S_10	STD	3
+	SEN_ND2_16	STD	3
+	SEN_AOAI211_G_3	STD	3
+	SEN_OAI21B_2	STD	3
+	SEN_AOI21_G_0P5	STD	3
+	SEN_AOI22_S_4	STD	3
+	SEN_AOI21_G_12	STD	3
+	SEN_AN2_DG_12	STD	3
+	SEN_AOAI211_G_2	STD	3
+	SEN_OR2_DG_12	STD	3
+	SEN_NR2_4	STD	3
+	SEN_ND3_T_16	STD	3
+	SEN_INV_1P25	STD	3
+	SEN_OR4B_8	STD	3
+	SEN_NR3_5	STD	3
+	SEN_AN4B_0P5	STD	3
+	SEN_NR2B_V1DG_6	STD	3
+	SEN_NR2B_V1DG_3	STD	3
+	SEN_NR2_S_0P5	STD	3
+	SEN_NR2_0P8	STD	3
+	SEN_AN2_1P5	STD	2
+	SEN_OR2_0P65	STD	2
+	SEN_AOI21_T_1	STD	2
+	SEN_INV_S_1P25	STD	2
+	SEN_NR2B_V1_4	STD	2
+	SEN_OAI22_T_1	STD	2
+	SEN_AN6_4	STD	2
+	SEN_OA21B_1	STD	2
+	SEN_AOI22_T_0P75	STD	2
+	SEN_BUF_6	STD	2
+	SEN_AN4_S_1P5	STD	2
+	SEN_NR3_T_5	STD	2
+	SEN_NR3B_DG_6	STD	2
+	SEN_OAI21_T_3	STD	2
+	SEN_EN2_1	STD	2
+	SEN_EO2_6	STD	2
+	SEN_OAI21B_3	STD	2
+	SEN_EO3_2	STD	2
+	SEN_MUXI2_S_8	STD	2
+	SEN_AO22_DG_2	STD	2
+	SEN_MUXI2_DG_3	STD	2
+	SEN_OAI22_2	STD	2
+	SEN_EO3_DG_1	STD	2
+	SEN_AOI21_T_6	STD	2
+	SEN_AOI21B_0P5	STD	2
+	SEN_OAI21B_6	STD	2
+	SEN_EO3_DG_8	STD	2
+	SEN_AOAI211_G_0P75	STD	2
+	SEN_ND2_T_1P5	STD	2
+	SEN_ND3_S_8	STD	2
+	SEN_EN2_DG_16	STD	2
+	SEN_BUF_S_6	STD	2
+	SEN_ND3B_2	STD	2
+	SEN_ND2_Y2_32	STD	2
+	SEN_EN2_S_4	STD	2
+	SEN_NR2_S_0P8	STD	2
+	SEN_AOI22_0P75	STD	2
+	SEN_ND2_12	STD	2
+	SEN_BUF_D_3	STD	2
+	SEN_ND3_S_6	STD	2
+	SEN_OR2_8	STD	2
+	SEN_EN4_DG_1	STD	2
+	SEN_EO2_G_3	STD	2
+	SEN_EO2_S_4	STD	2
+	SEN_EO2_DG_1	STD	2
+	SEN_AO21_4	STD	2
+	SEN_EO3_0P5	STD	2
+	SEN_OAI21_16	STD	2
+	SEN_AOI21_T_12	STD	2
+	SEN_ND2_S_1P5	STD	2
+	SEN_AO21_0P65	STD	2
+	SEN_BUF_S_8	STD	2
+	SEN_ND2B_V1DG_2	STD	2
+	SEN_AN3_S_1	STD	2
+	SEN_ND3B_V1DG_4	STD	2
+	SEN_AN5_1	STD	2
+	SEN_AOI211_0P75	STD	2
+	SEN_NR3_G_6	STD	2
+	SEN_NR2B_8	STD	2
+	SEN_NR2B_V1DG_2	STD	2
+	SEN_AOAI211_12	STD	2
+	SEN_NR3_G_4	STD	2
+	SEN_NR2B_V1DG_12	STD	2
+	SEN_NR3_T_0P5	STD	2
+	SEN_NR3B_DG_3	STD	1
+	SEN_OAI21_S_1P5	STD	1
+	SEN_NR2B_V1_3	STD	1
+	SEN_NR2B_V1_1	STD	1
+	SEN_ND3B_0P5	STD	1
+	SEN_NR3_3	STD	1
+	SEN_AO211_2	STD	1
+	SEN_AOI31_3	STD	1
+	SEN_AOI211_0P5	STD	1
+	SEN_NR2_5	STD	1
+	SEN_AOAI211_4	STD	1
+	SEN_AOAI211_8	STD	1
+	SEN_AOI211_4	STD	1
+	SEN_ND3B_4	STD	1
+	SEN_AO21B_4	STD	1
+	SEN_OR2_4	STD	1
+	SEN_EN3_DG_1	STD	1
+	SEN_EN3_6	STD	1
+	SEN_AO22_2	STD	1
+	SEN_ND2B_V1_4	STD	1
+	SEN_AOI21_T_3	STD	1
+	SEN_MUXI2_S_4	STD	1
+	SEN_OA2BB2_DG_8	STD	1
+	SEN_NR3_T_8	STD	1
+	SEN_ND2_10	STD	1
+	SEN_MUXI2_DG_2P5	STD	1
+	SEN_BUF_10	STD	1
+	SEN_MUXI2_DG_4	STD	1
+	SEN_OAI21_T_6	STD	1
+	SEN_AOI21B_1	STD	1
+	SEN_TIE1_G_1	STD	1
+	SEN_AO22_1	STD	1
+	SEN_AOI21_4	STD	1
+	SEN_AN4B_8	STD	1
+	SEN_OR3B_0P5	STD	1
+	SEN_AOAI211_G_0P5	STD	1
+	SEN_AOI211_G_5	STD	1
+	SEN_AN3_16	STD	1
+	SEN_EN2_DG_4	STD	1
+	SEN_NR2_6	STD	1
+	SEN_ND2_S_6	STD	1
+	SEN_OR2_DG_4	STD	1
+	SEN_MUXI2_S_2	STD	1
+	SEN_AOI31_G_3	STD	1
+	SEN_AN2_24	STD	1
+	SEN_FDPRBQ_1	STD	1
+	SEN_AOI21B_6	STD	1
+	SEN_EN3_DG_4	STD	1
+	SEN_AOAI211_G_4	STD	1
+	SEN_OR2_16	STD	1
+	SEN_BUF_D_2	STD	1
+	SEN_ND4_8	STD	1
+	SEN_BUF_D_1	STD	1
+	SEN_EO2_DG_2	STD	1
+	SEN_OR2_6	STD	1
+	SEN_AOI21_8	STD	1
+	SEN_AO21B_8	STD	1
+	SEN_EN2_G_3	STD	1
+	SEN_AN3B_4	STD	1
+	SEN_ND2_S_8	STD	1
+	SEN_NR2B_3	STD	1
+	SEN_AOA211_DG_8	STD	1
+	SEN_AOI211_8	STD	1
+	SEN_BUF_S_12	STD	1
+	SEN_ND2B_V1_8	STD	1
+	SEN_AOI21_T_8	STD	1
+	SEN_AOI22_T_8	STD	1
+	SEN_OAI21_S_8	STD	1
+	SEN_OAI21_T_4	STD	1
+	SEN_EN3_3	STD	1
+	SEN_EN3_DG_3	STD	1
+	SEN_ND2B_V1DG_1	STD	1
+	SEN_OAI21_T_2	STD	1
+	SEN_AOI22_T_0P5	STD	1
+	SEN_NR2B_4	STD	1
+	SEN_ND2B_S_8	STD	1
+	SEN_OAI22_1	STD	1
+	SEN_NR3_T_16	STD	1
+	SEN_AN4_S_3	STD	1
+	SEN_OR2_1P5	STD	1
+	SEN_INV_0P5	STD	1
+	SEN_NR2_G_0P5	STD	1
+	SEN_OAI21_G_0P5	STD	1
+	SEN_ND2_S_12	STD	1
+	SEN_NR2_G_16	STD	1
+	SEN_OAI21_S_2	STD	1
+	SEN_OR2_DG_6	STD	1
+	SEN_AOI211_1P5	STD	1
+	SEN_AOAI211_0P5	STD	1
+	SEN_OAI31_T_2	STD	1
+	SEN_AN2_DG_8	STD	1
+	SEN_INV_S_1P5	STD	1
+	SEN_OAI31_8	STD	1
+	SEN_OA2BB2_DG_4	STD	1
+	SEN_AN4_2	STD	1
+	SEN_AOI211_G_4	STD	1
+	SEN_NR2B_10	STD	1
+	SEN_NR2B_12	STD	1
+	SEN_NR2_8	STD	1
+	SEN_OAI31_G_4	STD	1
+	SEN_NR2_S_2P5	STD	1
+	SEN_OAI21_S_0P5	STD	1
+	SEN_NR2B_6	STD	1
+	SEN_EN2_DG_12	STD	1
+	SEN_OAOI211_G_6	STD	1
+	SEN_AN3B_8	STD	1
+	SEN_NR2B_16	STD	1
+	SEN_OAI31_G_0P75	STD	1
+	SEN_AN2_S_1	STD	1
+	SEN_AOI22_S_2	STD	1
+	SEN_NR2_S_6	STD	1
+	SEN_NR3_0P65	STD	1
+	SEN_NR2B_V1_12	STD	1
+	SEN_AN2_0P65	STD	1
+	=================================
+
+Timing/Optimization Information:
+
+Global Routing Information:
+    layer M1, dir Hor, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer M2, dir Hor, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer M3, dir Ver, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer M4, dir Hor, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer M5, dir Ver, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer M6, dir Hor, min width = 0.07, min space = 0.07 pitch = 0.14
+    layer T4M2, dir Ver, min width = 0.40, min space = 0.40 pitch = 0.80
+    layer RDL, dir Hor, min width = 2.00, min space = 2.00 pitch = 5.04
+     
+    Average gCell capacity  3.31	 on layer (1)	 M1
+    Average gCell capacity  7.83	 on layer (2)	 M2
+    Average gCell capacity  8.92	 on layer (3)	 M3
+    Average gCell capacity  8.93	 on layer (4)	 M4
+    Average gCell capacity  8.73	 on layer (5)	 M5
+    Average gCell capacity  0.00	 on layer (6)	 M6
+    Average gCell capacity  0.00	 on layer (7)	 T4M2
+    Average gCell capacity  0.00	 on layer (8)	 RDL
+     
+    Initial. Both Dirs: Overflow =   953 Max = 3 GRCs =   839 (0.92%)
+    Initial. H routing: Overflow =    54 Max = 3 (GRCs =  1) GRCs =    54 (0.12%)
+    Initial. V routing: Overflow =   899 Max = 3 (GRCs = 15) GRCs =   785 (1.71%)
+     
+    phase1. Both Dirs: Overflow =   953 Max = 3 GRCs =   839 (0.92%)
+    phase1. H routing: Overflow =    54 Max = 3 (GRCs =  1) GRCs =    54 (0.12%)
+    phase1. V routing: Overflow =   899 Max = 3 (GRCs = 15) GRCs =   785 (1.71%)
+     
+    phase2. Both Dirs: Overflow =   953 Max = 3 GRCs =   839 (0.92%)
+    phase2. H routing: Overflow =    54 Max = 3 (GRCs =  1) GRCs =    54 (0.12%)
+    phase2. V routing: Overflow =   899 Max = 3 (GRCs = 15) GRCs =   785 (1.71%)
+     
+    Total Wire Length = 33.40
+    Layer M1 wire length = 0.00
+    Layer M2 wire length = 25.91
+    Layer M3 wire length = 4.40
+    Layer M4 wire length = 3.08
+    Layer M5 wire length = 0.00
+    Layer M6 wire length = 0.00
+    Layer T4M2 wire length = 0.00
+    Layer RDL wire length = 0.00
+    Total Number of Contacts = 16
+    Via VIA1_2 count = 9
+    Via VIA2_1 count = 7
+    Via VIA3_1 count = 0
+    Via VIA4_1 count = 0
+    Via VIA5_1 count = 0
+    Via T4V2_1 count = 0
+    Via RV_1 count = 0
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1287
+
+Track Assignment Information:
+    Number of wires with overlap after iteration 0 = 41 of 86
+
+    Number of wires with overlap after iteration 1 = 12 of 62
+
+    Total M1 wire length: 0.7
+    Total M2 wire length: 27.9
+    Total M3 wire length: 10.0
+    Total M4 wire length: 4.6
+    Total M5 wire length: 0.0
+    Total M6 wire length: 0.0
+    Total T4M2 wire length: 0.0
+    Total RDL wire length: 0.0
+    Total wire length: 43.2
+
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1358
+
+Detailed Routing Information:
+    
+
+    ---------- Detail route ----------
+
+     
+    Iteration 0: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	693
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 1: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	30
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 2: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	16
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 3: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	3
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 4: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Elapsed real time: 0:00:26
+    Elapsed cpu time: sys = 0:00:00 usr = 0:01:38 total = 0:01:39
+    Total Proc Memory(MB): 1537
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:26 CPU = 0:01:39
+     
+    DR finished with 0 open nets, of which 0 are frozen
+    DR finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 21980
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1537
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:26 CPU = 0:01:39
+    
+
+    ---------- Eco detail route ----------
+
+     
+    Iteration 0: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	1
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 1: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Elapsed real time: 0:00:02
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:08 total = 0:00:08
+    Total Proc Memory(MB): 1572
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:28 CPU = 0:01:47
+     
+    ECO Route finished with 0 open nets, of which 0 are frozen
+    ECO Route finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 21983
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1572
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:28 CPU = 0:01:47
+    
+
+    ---------- Eco detail route ----------
+
+     
+    Elapsed real time: 0:00:02
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:08 total = 0:00:08
+    Total Proc Memory(MB): 1573
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:30 CPU = 0:01:55
+     
+    ECO Route finished with 0 open nets, of which 0 are frozen
+    ECO Route finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 21983
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1573
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:30 CPU = 0:01:55
+    
+
+    ---------- Chip finish: spread wires ----------
+
+    SpreadWires finished with 68 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	68
+    	Diff net spacing : 1
+    	Less than minimum area : 10
+    	Needs fat contact on extension : 1
+    	Same net spacing : 6
+    	Short : 14
+    	Internal-only types : 36
+     
+    Begin DRC fixing ...
+
+     
+    Iteration 1: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Elapsed real time: 0:00:08
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:26 total = 0:00:26
+    Total Proc Memory(MB): 1610
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:38 CPU = 0:02:21
+     
+    Wire spreading finished with 0 open nets, of which 0 are frozen
+    Wire spreading finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 21983
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1610
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:38 CPU = 0:02:21
+    
+
+    ---------- Eco detail route ----------
+
+     
+    Iteration 0: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	55
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 1: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	2
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Iteration 2: DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    	@@@@ Total number of instance ports with antenna violations =	0
+     
+    Elapsed real time: 0:00:05
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:18 total = 0:00:18
+    Total Proc Memory(MB): 1590
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:43 CPU = 0:02:39
+     
+    ECO Route finished with 0 open nets, of which 0 are frozen
+    ECO Route finished with 0 violations
+     
+    DRC-SUMMARY:
+    	@@@@@@@ TOTAL VIOLATIONS =	0
+    Total number of nets = 21983
+    0 open nets, of which 0 are frozen
+    Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                     0 ports without pins of 0 cells connected to 0 nets
+                                     0 ports of 0 cover cells connected to 0 non-pg nets
+    Total number of DRCs = 0
+    Total number of antenna violations = 0
+    Total number of voltage-area violations = no voltage-areas defined
+    
+
+     
+    Elapsed real time: 0:00:00
+    Elapsed cpu time: sys = 0:00:00 usr = 0:00:00 total = 0:00:00
+    Total Proc Memory(MB): 1590
+     
+    Cumulative run time upto current stage: Elapsed = 0:00:43 CPU = 0:02:39
+     
+    Total Wire Length =                    359281 micron
+    Total Number of Contacts =             174865
+    Total Number of Wires =                207415
+    Total Number of PtConns =              36077
+    Total Number of Routed Wires =       207415
+    Total Routed Wire Length =           351971 micron
+    Total Number of Routed Contacts =       174865
+    	Layer                  M1 :       2240 micron
+    	Layer                  M2 :      93740 micron
+    	Layer                  M3 :     175741 micron
+    	Layer                  M4 :      87560 micron
+    	Layer                  M5 :          0 micron
+    	Layer                  M6 :          0 micron
+    	Layer                T4M2 :          0 micron
+    	Layer                 RDL :          0 micron
+    	Via           VIA3_1(rot) :      21472
+    	Via                VIA3_2 :          2
+    	Via                VIA2_1 :      82196
+    	Via           VIA2_1(rot) :          2
+    	Via                VIA2_2 :          9
+    	Via           VIA2_2(rot) :         15
+    	Via                VIA2_5 :          6
+    	Via           VIA2_5(rot) :          1
+    	Via           VIA2_6(rot) :          1
+    	Via                VIA1_1 :         53
+    	Via           VIA1_1(rot) :      11500
+    	Via                VIA1_2 :      35902
+    	Via           VIA1_2(rot) :       1064
+    	Via                VIA1_3 :         10
+    	Via           VIA1_3(rot) :        123
+    	Via                VIA1_4 :         15
+    	Via           VIA1_4(rot) :        164
+    	Via                VIA1_5 :         14
+    	Via           VIA1_5(rot) :         70
+    	Via                VIA1_6 :        748
+    	Via            VIA1_FAT_1 :        644
+    	Via            VIA1_FAT_2 :      19275
+    	Via            VIA1_FAT_3 :         39
+    	Via            VIA1_FAT_5 :       1139
+    	Via        VIA1_FAT_1_2x1 :        184
+    	Via   VIA1_FAT_1(rot)_1x2 :         11
+    	Via   VIA1_FAT_1(rot)_2x1 :          9
+    	Via        VIA1_FAT_1_1x2 :        112
+    	Via        VIA1_FAT_3_2x1 :          4
+    	Via        VIA1_FAT_5_2x1 :          2
+    	Via   VIA1_FAT_5(rot)_1x2 :          2
+    	Via            VIA1_2_2x1 :         77
+     
+    Redundant via conversion report:
+    --------------------------------
+
+      Total optimized via conversion rate = 12.29% (21498 / 174865 vias)
+     
+        Layer V1         = 30.21% (21498  / 71161   vias)
+            Weight 1     = 30.21% (21498   vias)
+            Un-optimized = 69.79% (49663   vias)
+        Layer V2         =  0.00% (0      / 82230   vias)
+            Un-optimized = 100.00% (82230   vias)
+        Layer V3         =  0.00% (0      / 21474   vias)
+            Un-optimized = 100.00% (21474   vias)
+     
+      Total double via conversion rate    =  0.23% (401 / 174865 vias)
+     
+        Layer V1         =  0.56% (401    / 71161   vias)
+        Layer V2         =  0.00% (0      / 82230   vias)
+        Layer V3         =  0.00% (0      / 21474   vias)
+     
+      The optimized via conversion rate based on total routed via count = 12.29% (21498 / 174865 vias)
+     
+        Layer V1         = 30.21% (21498  / 71161   vias)
+            Weight 1     = 30.21% (21498   vias)
+            Un-optimized = 69.79% (49663   vias)
+        Layer V2         =  0.00% (0      / 82230   vias)
+            Un-optimized = 100.00% (82230   vias)
+        Layer V3         =  0.00% (0      / 21474   vias)
+            Un-optimized = 100.00% (21474   vias)
+     
+
+DRC information: 
+      Less than minimum width: 1 
+      Total error number: 1
+
+Ring Wiring Statistics:
+    metal5 Wire Length(count):                933.12(4)
+    metal6 Wire Length(count):                933.60(4)
+  ==============================================
+    Total Wire Length(count):                1866.72(8)
+    Number of via5 Contacts:              8
+  ==============================================
+    Total Number of Contacts:        8
+
+Stripe Wiring Statistics:
+    metal5 Wire Length(count):               1400.28(6)
+    metal6 Wire Length(count):               1401.00(6)
+  ==============================================
+    Total Wire Length(count):                2801.28(12)
+    Number of via5 Contacts:             42
+  ==============================================
+    Total Number of Contacts:       42
+
+User Wiring Statistics:
+
+PG follow-pin Wiring Statistics:
+    metal1 Wire Length(count):              42708.03(183)
+    metal2 Wire Length(count):              42742.42(183)
+    metal4 Wire Length(count):                289.60(905)
+  ==============================================
+    Total Wire Length(count):               85740.05(1271)
+    Number of via1 Contacts:            905
+    Number of via2 Contacts:            905
+    Number of via3 Contacts:            905
+    Number of via4 Contacts:            905
+    Number of via5 Contacts:            905
+  ==============================================
+    Total Number of Contacts:     4525
+
+Signal Wiring Statistics:
+    metal1 Wire Length(count):               2255.05(8524)
+    metal2 Wire Length(count):              93768.84(123176)
+    metal3 Wire Length(count):             175742.98(95454)
+    metal4 Wire Length(count):              87559.99(21389)
+  ==============================================
+    Total Wire Length(count):              359326.86(248543)
+
+      Mask Name      Contact Code    Number Of Contacts    Percentage
+        via1          VIA1_1(11)             11553	       16.2
+        via1          VIA1_2(12)             36966	       51.9
+        via1          VIA1_3(13)               133	      0.187
+        via1          VIA1_4(14)               179	      0.252
+        via1          VIA1_5(15)                84	      0.118
+        via1          VIA1_6(16)               748	       1.05
+        via1      VIA1_FAT_1(81)               644	      0.905
+        via1      VIA1_FAT_2(82)             19275	       27.1
+        via1      VIA1_FAT_3(83)                39	     0.0548
+        via1      VIA1_FAT_5(85)              1139	        1.6
+        via1_2x1  VIA1_FAT_5(85)                 4	    0.00562
+        via1_2x1  VIA1_FAT_3(83)                 4	    0.00562
+        via1_1x2  VIA1_FAT_1(81)               121	       0.17
+        via1_2x1      VIA1_2(12)                77	      0.108
+        via1_2x1  VIA1_FAT_1(81)               195	      0.274
+ Default via for layer via1:                   99.4%
+ Yield-optmized via for layer via1:            0.564%
+
+        via2          VIA2_1(21)             82198	        100
+        via2          VIA2_2(22)                24	     0.0292
+        via2          VIA2_5(25)                 7	    0.00851
+        via2          VIA2_6(26)                 1	    0.00122
+        via3          VIA3_1(31)             21472	        100
+        via3          VIA3_2(32)                 2	    0.00931
+
+ Double Via rate for all layers:           0.229%
+  ==============================================
+    Total Number of Contacts:    174865
+
+  Horizontal/Vertical Wire Distribution:
+    Layer      Hor. Wire (% of Hor.)     Ver. Wire (% of Ver.)
+    metal1          1763.41 ( 0.97%)           491.63 ( 0.28%)
+    metal2         91898.87 (50.52%)          1869.97 ( 1.05%)
+    metal3           792.56 ( 0.44%)        174950.42 (98.60%)
+    metal4         87440.12 (48.07%)           119.88 ( 0.07%)
+  ==============================================================
+    Total         181894.95                 177431.91
+
+LVS Run Time:
+    Elapsed =    0:00:02, CPU =    0:00:01
+1

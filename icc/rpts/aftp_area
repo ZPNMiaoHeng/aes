@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Tue May 11 05:34:24 2021
+****************************************
+
+Library(s) Used:
+
+    hu40npksdst_ss0p99vn40c (File: /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db)
+
+Number of ports:                           22
+Number of nets:                          3587
+Number of cells:                         3564
+Number of combinational cells:           3171
+Number of sequential cells:               392
+Number of macros/black boxes:               0
+Number of buf/inv:                        497
+Number of references:                     248
+
+Combinational area:              31929.635100
+Buf/Inv area:                     3288.801681
+Noncombinational area:            2551.802403
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 34481.437504
+Total area:                 undefined
+1

@@ -1,0 +1,181 @@
+#@ # 
+#@ # Running fm_shell Version L-2016.03-SP1 for linux64 -- Apr 13, 2016
+#@ # Date:   Wed May 12 03:07:08 2021
+#@ # Run by: qst@cad09
+#@ 
+
+source /home/EDA/EDA_TOOLS/Synopsys/Formality2016/admin/setup/.synopsys_fm.setup
+#@ # -- Starting source /home/EDA/EDA_TOOLS/Synopsys/Formality2016/admin/setup/.synopsys_fm.setup
+
+#@ #
+#@ # .synopsys_fm.setup: Initialization File for Formality
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" ||      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ 
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ # -- End source /home/EDA/EDA_TOOLS/Synopsys/Formality2016/admin/setup/.synopsys_fm.setup
+
+source -echo ../../dc/scr/MPW180_lib_list.tcl
+source -echo ../../dc/scr/hu40_lib.tcl
+#@ # -- Starting source ../../dc/scr/hu40_lib.tcl
+
+#@ #hu40_lib_list.tcl
+#@ #----------------------------------------------------------
+#@ #hu40 standard cell library list
+#@ #----------------------------------------------------------
+#@ #######################################
+#@ set hu40 "../../../../hu40nmlib/1.02a"
+#@ set libName	 "hu40npksdst"
+#@ 
+#@ #- - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ #  hu 40 sdcell db file path
+#@ # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ set hu40_dbpath "$hu40/liberty/logic_synth"
+#@ 
+#@ set hu40_db_ss_0v99_40c "$hu40_dbpath/${libName}_ss0p99vn40c.db"
+#@ set hu40_db_ss_0v99_0c "$hu40_dbpath/${libName}_ss0p99v0c.db"
+#@ set hu40_db_ss_0v99_125c "$hu40_dbpath/${libName}_ss0p99v125c.db"
+#@ set hu40_db_tt_1v0_25c "$hu40_dbpath/${libName}_tt1p0v25c.db"
+#@ set hu40_db_tt_1v1_25c "$hu40_dbpath/${libName}_tt1p1v25c.db"
+#@ set hu40_db_tt_1v2_25c "$hu40_dbpath/${libName}_tt1p2v25c.db"
+#@ set hu40_db_ff_1v1_0c "$hu40_dbpath/${libName}_ff1p1v0c.db"
+#@ set hu40_db_ff_1v1_40c "$hu40_dbpath/${libName}_ff1p1vn40c.db"
+#@ set hu40_db_ff_1v1_125c "$hu40_dbpath/${libName}_ff1p1v125c.db"
+#@ set hu40_db_ff_1v21_0c "$hu40_dbpath/${libName}_ff1p21v0c.db"
+#@ set hu40_db_ff_1v21_40c "$hu40_dbpath/${libName}_ff1p21vn40c.db"
+#@ set hu40_db_ff_1v21_125c "$hu40_dbpath/${libName}_ff1p21v125c.db"
+#@ set hu40_db_ff_1v26_0c "$hu40_dbpath/${libName}_ff1p26v0c.db"
+#@ set hu40_db_ff_1v26_40c "$hu40_dbpath/${libName}_ff1p26vn40c.db"
+#@ set hu40_db_ff_1v26_125c "$hu40_dbpath/${libName}_ff1p26v125c.db"
+#@ 
+#@ 
+#@ #set hu40_db_ff_40c "$hu40_dbpath/scc018ug_hd_rvt_ff_v1p98_-40c_basic.db"
+#@ #set hu40_db_ss_125c "$hu40_dbpath/scc018ug_hd_rvt_ss_v1p62_125c_basic.db"
+#@ 
+#@ #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ #  hu 40 sdcell mw reference file
+#@ # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ set mstack		 "m07f0f1f0_RDL"
+#@ set tf			 "m07f0f1f0_RDL"
+#@ set hu40_mw		 "$hu40/milkyway"
+#@ 
+#@ #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ #  hu 40 sdcell symbol file path
+#@ # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ set hu40_sdbpath "$hu40/liberty/symbol"
+#@ set hu40_sdb "$hu40_sdbpath/${libName}.sdb"
+#@ #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ #  hu 40 sdcell tf file path
+#@ # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ set hu40_tfpath "$hu40_mw/tf"
+#@ set hu40_tf7m "$hu40_tfpath/${libName}_${tf}.tf"
+#@ #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ #  hu 40 sdcell tluplus file
+#@ # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#@ set hu40_tlupluspath "$hu40_mw/tlup"
+#@ set hu40_TLU_CMAX "$hu40_tlupluspath/${mstack}/${libName}_${mstack}_w.tlup"
+#@ set hu40_TLU_CMIN "$hu40_tlupluspath/${mstack}/${libName}_${mstack}_b.tlup"
+#@ set hu40_TLU_TYP "$hu40_tlupluspath/${mstack}/${libName}_${mstack}_t.tlup"
+#@ #set hu40_map "$hu40_tlupluspath/HLMC_cl040lp_rf_1p7m_601_cal.map"
+#@ set hu40_map "$hu40_tlupluspath/extr_layers.map"
+#@ #set hu40_map "$hu40_tlupluspath/layers.map"
+#@ 
+#@ 
+#@ # -- End source ../../dc/scr/hu40_lib.tcl
+
+source ../../dc/scr/common_setup.tcl
+#@ # -- Starting source ../../dc/scr/common_setup.tcl
+
+#@ #common_setup.tcl
+#@ ##########################################################################################
+#@ # User-defined variables for logical library setup in dc_setup.tcl
+#@ ##########################################################################################
+#@ set DESIGN_NAME aestop
+#@ 
+#@ 
+#@ set ADDITIONAL_SEARCH_PATH "				$hu40 \                   
+#@ 							$hu40_dbpath \					
+#@ 							../syn 							../scr 							../rep 							../../rtl/aestop_asic_1026 " 
+#@ 
+#@ ##  Directories containing logical libraries,  
+#@ ;#  logical design and script files.
+#@ 
+#@ set TARGET_LIBRARY_FILES " $hu40_db_ss_0v99_40c  $hu40_db_ss_0v99_0c  $hu40_db_ss_0v99_125c  $hu40_db_tt_1v0_25c  $hu40_db_tt_1v1_25c  $hu40_db_tt_1v2_25c  $hu40_db_ff_1v1_0c  $hu40_db_ff_1v1_40c  $hu40_db_ff_1v1_125c  $hu40_db_ff_1v21_0c  $hu40_db_ff_1v21_40c  $hu40_db_ff_1v21_125c  $hu40_db_ff_1v26_0c  $hu40_db_ff_1v26_40c  $hu40_db_ff_1v26_125c"         ;#  Logical technology library file
+#@ 
+#@ set SYMBOL_LIBRARY_FILES "$hu40_sdb    "             ;#  Symbol library file
+#@ ##########################################################################################
+#@ # User-defined variables for physical library setup in dc_setup.tcl
+#@ ##########################################################################################
+#@ 
+#@ set MW_DESIGN_LIB    aes_mw                       ;#   User-defined Milkyway design library name
+#@ 
+#@ set MW_REFERENCE_LIB_DIRS  "$hu40_mw/hu40npksdst_m07f1f0f0_RDL"            ;#   Milkyway reference libraries
+#@ 
+#@ set TECH_FILE $hu40_tf7m               ;#   Milkyway technology file
+#@ 
+#@ set TLUPLUS_MAX_FILE $hu40_TLU_CMAX     ;#   Max TLUPlus file
+#@ set TLUPLUS_MIN_FILE $hu40_TLU_CMIN    ;#   Min TLUPlus file
+#@ set TLUPLUS_TYP_FILE $hu40_TLU_TYP     ;#   Typ TLUPlus file
+#@ 
+#@ set MAP_FILE $hu40_map                     ;#   Mapping file for TLUplus
+#@ # -- End source ../../dc/scr/common_setup.tcl
+
+set search_path "$ADDITIONAL_SEARCH_PATH"
+set target_library "$TARGET_LIBRARY_FILES"
+set link_library "$TARGET_LIBRARY_FILES"
+set symbol_library "$SYMBOL_LIBRARY_FILES"
+set rtl_path "../../rtl/aestop_asic_1026"
+set RTL_SOURCE_FILES "aestop.v byte02.v byte9bde.v byte0203.v control.v cryptdap.v decryptfsm.v encryptfsm.v \
+invsbox_mux.v keyexp.v mux21_8.v mux21_128.v mux41_8.v mux41_128.v reg_8_0.v \
+reg_128_rst.v sbox_mux.v shfreg_128.v reg_8_1.v reg_8_2.v reg_8_3.v reg_8_4.v reg_8_5.v reg_8_6.v \
+reg_8_7.v reg_8_8.v reg_8_9.v reg_8_10.v reg_8_11.v reg_8_12.v reg_8_13.v reg_8_14.v reg_8_15.v "
+
+set DC_GATENETLIST ../../dc/out/aestop_io.mapped.v
+set_app_var synopsys_auto_setup true
+set_svf ../../dc/syn/aestop_io.svf
+set_svf ../../dc/syn/aestop.svf
+read_db -technology_library $TARGET_LIBRARY_FILES
+read_verilog -r ${RTL_SOURCE_FILES} -work_library WORK
+set_top r:/WORK/${DESIGN_NAME}
+read_verilog -i $DC_GATENETLIST
+set DC_GATENETLIST ../../dc/out/aestop.mapped.v
+read_verilog -i $DC_GATENETLIST
+read_verilog -i $DC_GATENETLIST
+set_top i:/WORK/${DESIGN_NAME}
+
+match
+verify
+verify > formality.rep
+quit

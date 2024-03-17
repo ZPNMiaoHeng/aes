@@ -1,0 +1,4 @@
+v2lvs -v aestop_io_pred.v -l ../MPW180TECHFILE/STC/verilog/scc018ug_hd_rvt.v \
+-l ../MPW180TECHFILE/IO/verilog/SP018W_V1p8.v -o aestop_io.spi \
+-s ../MPW180TECHFILE/STC/cdl/scc018ug_hd_rvt.cdl \
+-s ../MPW180TECHFILE/IO/lvs/SP018W_V1p8a.sp

@@ -1,0 +1,86 @@
+Warning: The following library cells don't have power description:SEN_TAPDS1T5  SEN_CAPR8  SEN_CAPL8   (PWR-682)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Tue May 11 05:36:15 2021
+****************************************
+
+
+Library(s) Used:
+
+    hu40npksdst_ss0p99vn40c (File: /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db)
+
+
+Operating Conditions: SS0P99VN40C   Library: hu40npksdst_ss0p99vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+aestop                 ZeroWLM           hu40npksdst_ss0p99vn40c
+cryptdap               ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_15            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_16            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_17            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_18            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_7             ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_8             ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_9             ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_10            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_11            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_12            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_13            ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_14            ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_8          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_9          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_10         ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_11         ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_12         ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_13         ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_14         ZeroWLM           hu40npksdst_ss0p99vn40c
+sbox_mux_6             ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_0          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_1          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_2          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_3          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_4          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_5          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_6          ZeroWLM           hu40npksdst_ss0p99vn40c
+invsbox_mux_7          ZeroWLM           hu40npksdst_ss0p99vn40c
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   2.4702 mW   (49%)
+  Net Switching Power  =   2.6207 mW   (51%)
+                         ---------
+Total Dynamic Power    =   5.0908 mW  (100%)
+
+Cell Leakage Power     = 649.7104 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.9441            0.2181           36.6026            1.1623  (  22.83%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      1.5261            2.4025          613.1026            3.9292  (  77.17%)
+--------------------------------------------------------------------------------------------------
+Total              2.4702 mW         2.6206 mW       649.7052 nW         5.0915 mW
+1

@@ -1,0 +1,67 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 01/28/2016 23:43 (sjfnl179) $
+\o Sub version:		sub-version  IC6.1.7 - CAT35.15s004 
+\o Arguments:		-cdslib /home/qst/workspace2105/aes/virtouso/cds.lib -mpssession virtuoso29787 -mpshost cad09 
+\o Working Directory:	cad09:/home/qst/workspace2105/aes/virtouso
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(1920 1 500 400))
+\a nrResizeWindow(cdsLibEditor list(757 220 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 11 1)
+\o Active cell: 11 1 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105/aes/virtouso"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(741 242 531 513))
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105/aes/virtouso/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105/aes"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105/aes/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/workspace2105/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/qst"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "hu40nmlib"
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib"
+\a nrListItemAction(newLibraryDialog->dirListWidget 11 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "1.02a"
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "gds"
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a/gds"
+\a nrListItemAction(newLibraryDialog->dirListWidget 7 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a/gds/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "aocv"
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a/aocv"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a/aocv/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/qst/hu40nmlib/1.02a"
+\a newLibraryDialog->dirListWidget->value = nil
+\a nrSetCurrentWindow(newLibraryDialog)
+\a newLibraryDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

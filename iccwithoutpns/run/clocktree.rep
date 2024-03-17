@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : clock tree
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Thu May 13 22:56:07 2021
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+============ Global Skew Report ================
+
+Clock Tree Name                : "clk"
+Clock Period                   : 2.50000        
+Clock Tree root pin            : "clk"
+Number of Levels               : 3
+Number of Sinks                : 520
+Number of CT Buffers           : 27
+Number of CTS added gates      : 0
+Number of Preexisting Gates    : 0
+Number of Preexisting Buf/Inv  : 0
+Total Number of Clock Cells    : 27
+Total Area of CT Buffers       : 36.33840       
+Total Area of CT cells         : 36.33840       
+Max Global Skew                : 0.03861   
+Number of MaxTran Violators    : 0
+Number of MaxCap Violators     : 0
+Number of MaxFanout Violators  : 0
+
+
+Operating Condition               worst
+Clock global Skew                 0.039
+Longest path delay                0.267
+Shortest path delay               0.228
+
+The longest path delay end pin: keyexp/shfreg_128/dout_reg[18]/CK
+The shortest path delay end pin: cryptdap/reg_8_15/dout_reg[1]/CK
+
+The longest Path:
+Pin                                         Cap       Fanout    Trans     Incr      Arri
+----------------------------------------------------------------------------------------------------
+clk                                         0.000            1  0.000     0.000     0.000     r
+clk                                         0.120           21  0.100     0.000     0.000     r
+SEN_BUF_S_3_G1B1I12_1/A                     0.120            1  0.106     0.029     0.029     r
+SEN_BUF_S_3_G1B1I12_1/X                     0.055           39  0.328     0.235     0.264     r
+keyexp/shfreg_128/dout_reg[18]/CK           0.055            0  0.329     0.003     0.267     r
+[clock delay]                                                                       0.267
+----------------------------------------------------------------------------------------------------
+
+The Shortest Path:
+Pin                                         Cap       Fanout    Trans     Incr      Arri
+----------------------------------------------------------------------------------------------------
+clk                                         0.000            1  0.000     0.000     0.000     r
+clk                                         0.120           21  0.100     0.000     0.000     r
+cryptdap/SEN_BUF_S_3_G1B1I10_1/A            0.120            1  0.106     0.032     0.032     r
+cryptdap/SEN_BUF_S_3_G1B1I10_1/X            0.041           18  0.249     0.195     0.227     r
+cryptdap/reg_8_15/dout_reg[1]/CK            0.041            0  0.249     0.001     0.228     r
+[clock delay]                                                                       0.228
+----------------------------------------------------------------------------------------------------
+
+1

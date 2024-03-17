@@ -1,0 +1,413 @@
+Running router in separate process ...
+
+                                IC Compiler (TM)
+                              IC Compiler-PC (TM)
+                              IC Compiler-XP (TM)
+                              IC Compiler-DP (TM)
+                              IC Compiler-AG (TM)
+
+               Version L-2016.03-SP1 for linux64 - Apr 11, 2016 
+
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Found antenna rule mode 1, diode mode 4:
+	metal ratio 0, cut ratio 20,metal gate diffusion length based ratio 0 cut gate length based ratio 0	metal pratio 0, cut pratio 0, metal gate diffusion length based pratio 0, cut gate diffusion length based pratio 0	metal nratio 0, cut nratio 0, metal nratio 0, cut nratio 0
+	layer T4M2: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer T4M2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 8000 50000}
+	layer RV: max ratio 200 max pratio 2.14748e+09 max nratio 2.14748e+09	layer RV: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 83 410}
+	layer V1: max ratio 20 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V1: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V2: max ratio 20 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V3: max ratio 20 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V3: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V4: max ratio 20 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V4: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V5: max ratio 20 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V5: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+Found antenna rule mode 2, diode mode 4:
+	metal ratio 0, cut ratio 0,metal gate diffusion length based ratio 0 cut gate length based ratio 0	metal pratio 0, cut pratio 0, metal gate diffusion length based pratio 0, cut gate diffusion length based pratio 0	metal nratio 0, cut nratio 0, metal nratio 0, cut nratio 0, metal scale 1, cut scale 1
+	layer M1: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M1: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer M2: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer M3: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M3: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer M4: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M4: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer M5: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M5: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer M6: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer M6: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 457 43000}
+	layer T4M2: max ratio 5000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer T4M2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 8000 50000}
+	layer V1: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V1: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V2: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V3: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V3: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V4: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V4: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer V5: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer V5: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+	layer T4V2: max ratio 910 max pratio 2.14748e+09 max nratio 2.14748e+09	layer T4V2: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 210 910}
+Found antenna rule mode 4, diode mode 4:
+	metal ratio 0, cut ratio 0,metal gate diffusion length based ratio 0 cut gate length based ratio 0	metal pratio 0, cut pratio 0, metal gate diffusion length based pratio 0, cut gate diffusion length based pratio 0	metal nratio 0, cut nratio 0, metal nratio 0, cut nratio 0
+	layer RDL: max ratio 2000 max pratio 2.14748e+09 max nratio 2.14748e+09	layer RDL: max gate length based ratio 0 max gate length based pratio 0 max gate length based nratio 0, diode ratio {0.06 0 8000 30000}
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = M4
+Information: Multiple default contact VIA1_2 found for layer V1. (ZRT-021)
+Information: Multiple default contact VIA1_3 found for layer V1. (ZRT-021)
+Information: Multiple default contact VIA1_4 found for layer V1. (ZRT-021)
+Information: Multiple default contact VIA1_5 found for layer V1. (ZRT-021)
+Information: Multiple default contact VIA1_6 found for layer V1. (ZRT-021)
+Information: Multiple default contact VIA2_2 found for layer V2. (ZRT-021)
+Information: Multiple default contact VIA2_3 found for layer V2. (ZRT-021)
+Information: Multiple default contact VIA2_4 found for layer V2. (ZRT-021)
+Information: Multiple default contact VIA2_5 found for layer V2. (ZRT-021)
+Information: Multiple default contact VIA2_6 found for layer V2. (ZRT-021)
+Information: Multiple default contact VIA3_2 found for layer V3. (ZRT-021)
+Information: Multiple default contact VIA3_3 found for layer V3. (ZRT-021)
+Information: Multiple default contact VIA3_4 found for layer V3. (ZRT-021)
+Information: Multiple default contact VIA3_5 found for layer V3. (ZRT-021)
+Information: Multiple default contact VIA3_6 found for layer V3. (ZRT-021)
+Information: Multiple default contact VIA4_2 found for layer V4. (ZRT-021)
+Information: Multiple default contact VIA4_3 found for layer V4. (ZRT-021)
+Information: Multiple default contact VIA4_4 found for layer V4. (ZRT-021)
+Information: Multiple default contact VIA4_5 found for layer V4. (ZRT-021)
+Information: Multiple default contact VIA4_6 found for layer V4. (ZRT-021)
+Information: Multiple default contact VIA5_2 found for layer V5. (ZRT-021)
+Information: Multiple default contact VIA5_3 found for layer V5. (ZRT-021)
+Information: Multiple default contact VIA5_4 found for layer V5. (ZRT-021)
+Information: Multiple default contact VIA5_5 found for layer V5. (ZRT-021)
+Information: Multiple default contact VIA5_6 found for layer V5. (ZRT-021)
+Information: Multiple default contact T4V2_2 found for layer T4V2. (ZRT-021)
+Warning: The 'VIA1_1' via enclosure width is less than NDR width constraint of 'M1' layer. (RT-066)
+Warning: The 'VIA1_1' via enclosure width is less than NDR width constraint of 'M2' layer. (RT-066)
+Warning: The 'VIA2_1' via enclosure width is less than NDR width constraint of 'M2' layer. (RT-066)
+Warning: The 'VIA2_1' via enclosure width is less than NDR width constraint of 'M3' layer. (RT-066)
+Warning: The 'VIA3_1' via enclosure width is less than NDR width constraint of 'M3' layer. (RT-066)
+Warning: The 'VIA3_1' via enclosure width is less than NDR width constraint of 'M4' layer. (RT-066)
+Via on layer (V1) needs more than one tracks
+Warning: Layer M2 pitch 0.140 may be too small: wire/via-down 0.170, wire/via-up 0.140. (ZRT-026)
+Via on layer (V3) needs more than one tracks
+Warning: Layer M3 pitch 0.140 may be too small: wire/via-down 0.140, wire/via-up 0.170. (ZRT-026)
+Via on layer (V3) needs more than one tracks
+Warning: Layer M4 pitch 0.140 may be too small: wire/via-down 0.170, wire/via-up 0.140. (ZRT-026)
+Via on layer (V5) needs more than one tracks
+Warning: Layer M5 pitch 0.140 may be too small: wire/via-down 0.140, wire/via-up 0.170. (ZRT-026)
+Wire on layer (M6) needs more than one tracks
+Via on layer (V5) needs more than one tracks
+Via on layer (T4V2) needs more than one tracks
+Warning: Layer M6 pitch 0.140 may be too small: wire/via-down 0.170, wire/via-up 0.305. (ZRT-026)
+Via on layer (RV) needs more than one tracks
+Warning: Layer T4M2 pitch 0.800 may be too small: wire/via-down 0.800, wire/via-up 2.100. (ZRT-026)
+12 masters (12 pins) have donut holes
+
+
+Start checking for open nets ... 
+
+Total number of nets = 21671, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+
+Check 21671 nets, 0 have Errors
+
+[CHECK OPEN NETS] Elapsed real time: 0:00:00 
+[CHECK OPEN NETS] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[CHECK OPEN NETS] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[CHECK OPEN NETS] Total (MB): Used   88  Alloctr   90  Proc 1262 
+Printing options for 'set_route_zrt_common_options'
+-dbin_list_of_nets                                      :	 {}                  
+-extraction_mode                                        :	 parallel            
+-verbose_level                                          :	 0                   
+
+Printing options for 'set_route_zrt_detail_options'
+
+*****Start reporting antenna related parameters*****
+  Antenna/diode mode:
+    Antenna mode 1; diode mode 4
+      Metal lay (M1)0; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V1)1; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000)
+      Metal lay (M2)1; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V2)2; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000)
+      Metal lay (M3)2; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V3)3; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000)
+      Metal lay (M4)3; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V4)4; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000)
+      Metal lay (M5)4; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V5)5; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000)
+      Metal lay (M6)5; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (T4V2)6; maxRatio 20.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (T4M2)6; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 8000.000 50000.000 0.000)
+      Cut lay (RV)7; maxRatio 200.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 83.000 410.000 0.000)
+      Metal lay (RDL)7; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+    Antenna mode 2; diode mode 4
+      Metal lay (M1)0; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (V1)1; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (M2)1; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (V2)2; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (M3)2; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (V3)3; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (M4)3; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (V4)4; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (M5)4; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (V5)5; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (M6)5; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 457.000 43000.000 0.000); protectedMetalScale 1.000
+      Cut lay (T4V2)6; maxRatio 910.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 210.000 910.000 0.000); protectedCutScale 1.000
+      Metal lay (T4M2)6; maxRatio 5000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 8000.000 50000.000 0.000); protectedMetalScale 1.000
+      Cut lay (RV)7; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000; protectedCutScale 1.000
+      Metal lay (RDL)7; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; protectedMetalScale 1.000
+    Antenna mode 4; diode mode 4
+      Metal lay (M1)0; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V1)1; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (M2)1; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V2)2; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (M3)2; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V3)3; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (M4)3; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V4)4; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (M5)4; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (V5)5; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (M6)5; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (T4V2)6; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (T4M2)6; maxRatio 2147483648.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000
+      Cut lay (RV)7; maxRatio 2147483647.000 maxPRatio 2147483647.000 maxNRatio 2147483647.000
+      Metal lay (RDL)7; maxRatio 2000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 8000.000 30000.000 0.000)
+  Accumulate from metal to cut == false
+  Accumulate from cut to metal == false
+  Top lay antenna ratio fix threshold == -1
+  Antenna max pin count threshold == -1
+  Check PG net == false
+  MergeGate == true
+  Break antenna to port mode == float
+  Break antenna to macro pin mode == normal
+*****End reporting antenna related parameters*****
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n508. The pin A2 on cell SEN_ND2_G_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n509. The pin A2 on cell SEN_AN4_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n510. The pin A2 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n511. The pin A2 on cell SEN_AN2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n512. The pin A1 on cell SEN_AN3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n513. The pin A on cell SEN_INV_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n514. The pin A3 on cell SEN_NR3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n515. The pin A2 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n516. The pin A3 on cell SEN_ND3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n517. The pin A3 on cell SEN_ND4_S_0P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n518. The pin A4 on cell SEN_ND4_S_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n519. The pin A1 on cell SEN_ND3_T_10 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n520. The pin A2 on cell SEN_ND3_T_10 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n521. The pin A2 on cell SEN_ND3_T_0P65 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n522. The pin A3 on cell SEN_ND3_T_0P65 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n523. The pin A2 on cell SEN_NR3_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n524. The pin A1 on cell SEN_ND3_T_12 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n525. The pin A2 on cell SEN_ND3_T_4 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n526. The pin A1 on cell SEN_NR2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n527. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n528. The pin B1 on cell SEN_OAI211_0P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n529. The pin A on cell SEN_NR4B_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n531. The pin A2 on cell SEN_ND4_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n532. The pin A2 on cell SEN_AOI211_G_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n533. The pin A4 on cell SEN_ND4_S_0P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n536. The pin A1 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n537. The pin A2 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n538. The pin B3 on cell SEN_ND4B_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n539. The pin B1 on cell SEN_AN4B_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n540. The pin B1 on cell SEN_OAI211_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n541. The pin A2 on cell SEN_AN2_6 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n542. The pin B2 on cell SEN_AN4B_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n543. The pin A2 on cell SEN_ND4_S_1P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I1. The pin CK on cell SEN_FDPSBQ_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I3. The pin A on cell SEN_BUF_S_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I4. The pin CK on cell SEN_FDPSBQ_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I5. The pin A on cell SEN_BUF_S_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I8. The pin CK on cell SEN_FDPSBQ_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net clk_G1B1I9. The pin CK on cell SEN_FDPSBQ_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net n655. The pin S on cell SEN_MUX2_S_0P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n459. The pin A on cell SEN_INV_8 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n460. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n461. The pin A on cell SEN_INV_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n462. The pin A1 on cell SEN_ND3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n465. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n466. The pin A3 on cell SEN_OR3_0P65 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n467. The pin A3 on cell SEN_NR4_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n469. The pin A1 on cell SEN_ND2_T_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n470. The pin A1 on cell SEN_NR2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n471. The pin A1 on cell SEN_ND2_T_12 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n472. The pin A1 on cell SEN_ND2_T_8 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n473. The pin A1 on cell SEN_ND2_T_12 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n474. The pin A1 on cell SEN_ND2_T_16 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n475. The pin A1 on cell SEN_ND2_T_10 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n476. The pin A1 on cell SEN_NR2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n477. The pin A3 on cell SEN_NR3_T_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n478. The pin A2 on cell SEN_ND2_S_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n479. The pin A3 on cell SEN_ND3_T_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n480. The pin A2 on cell SEN_ND2_S_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n481. The pin A2 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n482. The pin A2 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n483. The pin A2 on cell SEN_ND2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n484. The pin A2 on cell SEN_ND2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n485. The pin A3 on cell SEN_NR3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n486. The pin A2 on cell SEN_ND2_S_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n487. The pin A3 on cell SEN_NR3_T_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n488. The pin A1 on cell SEN_ND3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n489. The pin A2 on cell SEN_ND3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n491. The pin A2 on cell SEN_NR2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n492. The pin A3 on cell SEN_ND3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n493. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n494. The pin A2 on cell SEN_ND2_S_0P5 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n495. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n496. The pin A on cell SEN_INV_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n497. The pin B2 on cell SEN_ND4B_4 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n500. The pin A2 on cell SEN_ND3_T_12 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n501. The pin A1 on cell SEN_ND2_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n502. The pin A3 on cell SEN_OR3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n506. The pin A2 on cell SEN_NR2_S_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n507. The pin A2 on cell SEN_ND2_S_4 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n465. The pin A2 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n466. The pin A2 on cell SEN_ND4_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n467. The pin A2 on cell SEN_NR2_T_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n468. The pin A2 on cell SEN_AN2_6 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n469. The pin A2 on cell SEN_NR2_T_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n470. The pin A on cell SEN_INV_4 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n471. The pin A1 on cell SEN_NR2_G_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n472. The pin A1 on cell SEN_ND3_T_0P65 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n473. The pin A on cell SEN_INV_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n474. The pin B2 on cell SEN_AOI22_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n475. The pin A4 on cell SEN_ND4_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n478. The pin A1 on cell SEN_NR2_S_3 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n479. The pin A1 on cell SEN_ND3_S_4 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n480. The pin A on cell SEN_INV_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux9/n481. The pin A1 on cell SEN_OA21_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n242. The pin A2 on cell SEN_ND2_G_2 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n294. The pin A1 on cell SEN_NR2_G_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n420. The pin A3 on cell SEN_OR3_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n421. The pin A on cell SEN_AN4B_1 does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net cryptdap/invsbox_mux8/n422. The pin A2 on cell SEN_ND2_2 does not have enough gate area information. (ZRT-311)
+Skipping antenna analysis for 21661 nets as they don't have enough gate area info.
+
+Begin full DRC check ...
+
+Information: Using 4 threads for routing. (ZRT-444)
+Checked	1/25 Partitions, Violations =	0
+Checked	2/25 Partitions, Violations =	0
+Checked	3/25 Partitions, Violations =	0
+Checked	4/25 Partitions, Violations =	0
+Checked	5/25 Partitions, Violations =	0
+Checked	6/25 Partitions, Violations =	0
+Checked	7/25 Partitions, Violations =	0
+Checked	8/25 Partitions, Violations =	0
+Checked	9/25 Partitions, Violations =	0
+Checked	10/25 Partitions, Violations =	0
+Checked	11/25 Partitions, Violations =	0
+Checked	12/25 Partitions, Violations =	0
+Checked	13/25 Partitions, Violations =	0
+Checked	14/25 Partitions, Violations =	0
+Checked	15/25 Partitions, Violations =	0
+Checked	16/25 Partitions, Violations =	0
+Checked	17/25 Partitions, Violations =	0
+Checked	18/25 Partitions, Violations =	0
+Checked	19/25 Partitions, Violations =	0
+Checked	20/25 Partitions, Violations =	0
+Checked	21/25 Partitions, Violations =	0
+Checked	22/25 Partitions, Violations =	0
+Checked	23/25 Partitions, Violations =	0
+Checked	24/25 Partitions, Violations =	0
+Checked	25/25 Partitions, Violations =	0
+[DRC CHECK] Elapsed real time: 0:00:03 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:12 total=0:00:12
+[DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc  283 
+[DRC CHECK] Total (MB): Used   99  Alloctr  101  Proc 1549 
+Start net based rule analysis
+Found 0 antenna instance ports
+End net based rule analysis
+[Antenna analysis] Elapsed real time: 0:00:00 
+[Antenna analysis] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Antenna analysis] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Antenna analysis] Total (MB): Used  100  Alloctr  102  Proc 1549 
+
+DRC-SUMMARY:
+	@@@@@@@ TOTAL VIOLATIONS =	0
+
+
+Total Wire Length =                    348598 micron
+Total Number of Contacts =             173908
+Total Number of Wires =                153776
+Total Number of PtConns =              35181
+Total Number of Routed Wires =       153776
+Total Routed Wire Length =           341249 micron
+Total Number of Routed Contacts =       173908
+	Layer                  M1 :       1768 micron
+	Layer                  M2 :      87251 micron
+	Layer                  M3 :     164440 micron
+	Layer                  M4 :      95139 micron
+	Layer                  M5 :          0 micron
+	Layer                  M6 :          0 micron
+	Layer                T4M2 :          0 micron
+	Layer                 RDL :          0 micron
+	Via           VIA3_1(rot) :      23462
+	Via                VIA3_2 :          2
+	Via                VIA2_1 :      79964
+	Via           VIA2_1(rot) :          2
+	Via                VIA2_2 :         10
+	Via           VIA2_2(rot) :         10
+	Via                VIA2_5 :          7
+	Via                VIA1_1 :         61
+	Via           VIA1_1(rot) :      12714
+	Via                VIA1_2 :      34238
+	Via           VIA1_2(rot) :       1213
+	Via                VIA1_3 :          8
+	Via           VIA1_3(rot) :        160
+	Via                VIA1_4 :         23
+	Via           VIA1_4(rot) :        203
+	Via                VIA1_5 :         20
+	Via           VIA1_5(rot) :         67
+	Via                VIA1_6 :        824
+	Via           VIA1_6(rot) :          1
+	Via            VIA1_FAT_1 :        662
+	Via            VIA1_FAT_2 :      18909
+	Via            VIA1_FAT_3 :         35
+	Via            VIA1_FAT_5 :        970
+	Via        VIA1_FAT_1_2x1 :        147
+	Via   VIA1_FAT_1(rot)_1x2 :         12
+	Via   VIA1_FAT_1(rot)_2x1 :          4
+	Via        VIA1_FAT_1_1x2 :         98
+	Via        VIA1_FAT_3_2x1 :          2
+	Via   VIA1_FAT_3(rot)_1x2 :          1
+	Via        VIA1_FAT_5_2x1 :          3
+	Via   VIA1_FAT_5(rot)_1x2 :          4
+	Via        VIA1_FAT_2_1x2 :          1
+	Via            VIA1_2_2x1 :         71
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate = 12.03% (20919 / 173908 vias)
+ 
+    Layer V1         = 29.69% (20919  / 70451   vias)
+        Weight 1     = 29.69% (20919   vias)
+        Un-optimized = 70.31% (49532   vias)
+    Layer V2         =  0.00% (0      / 79993   vias)
+        Un-optimized = 100.00% (79993   vias)
+    Layer V3         =  0.00% (0      / 23464   vias)
+        Un-optimized = 100.00% (23464   vias)
+ 
+  Total double via conversion rate    =  0.20% (343 / 173908 vias)
+ 
+    Layer V1         =  0.49% (343    / 70451   vias)
+    Layer V2         =  0.00% (0      / 79993   vias)
+    Layer V3         =  0.00% (0      / 23464   vias)
+ 
+  The optimized via conversion rate based on total routed via count = 12.03% (20919 / 173908 vias)
+ 
+    Layer V1         = 29.69% (20919  / 70451   vias)
+        Weight 1     = 29.69% (20919   vias)
+        Un-optimized = 70.31% (49532   vias)
+    Layer V2         =  0.00% (0      / 79993   vias)
+        Un-optimized = 100.00% (79993   vias)
+    Layer V3         =  0.00% (0      / 23464   vias)
+        Un-optimized = 100.00% (23464   vias)
+ 
+
+
+Verify Summary:
+
+Total number of nets = 21671, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+Total number of DRCs = 0
+Total number of antenna violations = 0
+Total number of voltage-area violations = no voltage-areas defined
+Total number of tie to rail violations = not checked
+Total number of tie to rail directly violations = not checked
+
+Memory usage for zrouter task 527 Mbytes -- main task 1928 Mbytes.
+Router separate process finished successfully.
+1

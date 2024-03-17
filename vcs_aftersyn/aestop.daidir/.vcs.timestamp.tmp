@@ -1,0 +1,177 @@
+1        
+0 aestop.mapped.sdf_c
+48
++cli+3
++cli+4
++itf+/home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/vcsd.tab
++memcbk
++v2k
++vcs+flush+all
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/EDA/EDA_TOOLS/Synopsys/VCS2014/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/libvirsim.so /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/liberrorinf.so /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/libsnpsmalloc.so
+-Mout=aestop
+-Msaverestoreobj=/home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/EDA/EDA_TOOLS/Synopsys/Verdi2015/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-P
+-Xcbug=0x1
+-Xvcs_run_simv=1
+-cm
+-cm_dir
+-cm_name
+-debug=4
+-debug_all
+-debug_obj
+-f file_list.f
+-fsdb
+-full64
+-gen_obj
+-l
+-line
+-o aestop
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+./aestop.vdb
+/home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/bin/vcs1
+/home/EDA/EDA_TOOLS/Synopsys/Verdi2015/share/PLI/VCS/LINUX64/novas.tab
+aestop
+compile.log
+line+cond+fsm+branch+tgl
+110
+sysc_uni_pwd=/home/qst/workspace2105/aes/vcs_aftersyn
+syn_path=/home/EDA/EDA_TOOLS/Synopsys
+mmsim_path=/home/EDA/EDA_TOOLS/Cadence/MMSIM15.10.548
+mgc_s=qstr@cad01
+mentor_path=/home/EDA/EDA_TOOLS/Mentor
+lic_path=/home/EDA/EDA_TOOLS/license
+eda_path=/home/EDA/EDA_TOOLS
+cds_path=/home/EDA/EDA_TOOLS/Cadence
+XMODIFIERS=@im=none
+XDG_SESSION_ID=c2
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=5202
+VNCDESKTOP=cad09:2 (qst)
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/home/EDA/EDA_TOOLS/Synopsys/VCS2014
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=amd64
+UNAME=/bin/uname
+TURBO_ETC_DIR=/home/EDA/EDA_TOOLS/script/menu
+TOOL_HOME=/home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64
+TESSENT_HOME=/home/EDA/EDA_TOOLS/Mentor/tessent
+SYNOPSYS_LC_ROOT=/home/EDA/EDA_TOOLS/Synopsys/M-2016.12
+SS_HOME=/home/EDA/EDA_TOOLS/Synopsys/siliconsmart_vL-2016.03
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=7177
+SRC_HOME=/home/EDA/EDA_TOOLS/Synopsys/StarRC2015
+SNPSLMD_LICENSE_FILE=27002@192.168.1.102:/home/EDA/EDA_TOOLS/Synopsys/VCS2014/flexlm//license.dat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/6864,unix/unix:/tmp/.ICE-unix/6864
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REDHAWK_HOME=/home/eda/EDA_TOOLS/ansys/redhawk/RedHawk_Linux64e5_V19.0.3
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=xim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PVA_64=1
+PT_HOME=/home/EDA/EDA_TOOLS/Synopsys/PrimeTime2015
+PERL_MM_OPT=INSTALL_BASE=/home/qst/perl5
+PERL_MB_OPT=--install_base /home/qst/perl5
+PERL_LOCAL_LIB_ROOT=/home/qst/perl5
+PERL_HOMEDIR=1
+PERL5LIB=/home/qst/perl5/lib/perl5
+OVA_UUM=0
+OSTYPE=linux
+OPENWINHOME=/usr/lib/X11
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc48x
+OA_HOME=/home/EDA/EDA_TOOLS/Cadence/IC617/oa_v22.50.043
+NOVAS_HOME=/home/EDA/EDA_TOOLS/Synopsys/Verdi2015
+MW_HOME=/home/qst/milkyway
+MMSIM_HOME=/home/EDA/EDA_TOOLS/Cadence/MMSIM15.10.548
+MGLS_LICENSE_FILE=/home/EDA/EDA_TOOLS/license/cal_license.dat
+MGC_HOME=/home/EDA/EDA_TOOLS/Mentor/ixl_cal_2016.2_26.21/aoi_cal_2016.2_26.21
+MFLAGS=
+META_QUEUE=1
+MAKELEVEL=1
+MAKEFLAGS=
+Laker_path=/home/EDA/EDA_TOOLS/laker2015/laker2015.12/bin
+Laker_TCL_ToolBox=1
+Laker_TCL_L3=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/home/EDA/EDA_TOOLS/Synopsys/M-2016.12
+LC_ALL=C
+KDEDIRS=/usr
+Inst_Laker_Dir=/home/EDA/EDA_TOOLS/laker2015/laker2015.12
+IUS_HOME=/home/EDA/EDA_TOOLS/Cadence/ius/ius82
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICC_HOME=/home/qst/icctools
+ICC2_HOME=/home/EDA/EDA_TOOLS/Synopsys/icc2_vM-2016.12-SP5
+HSP_ADE_INTEG_HOME=/home/EDA/EDA_TOOLS/Synopsys/Hspice2016/hspice/interface
+HSPICE_64=1
+HSM_HOME=/home/EDA/EDA_TOOLS/Synopsys/Hspice2016
+HSIM_WAIT_LICENSE=1
+HSIM_64=1
+HSIMPLUS_64=1
+HOSTTYPE=x86_64-linux
+GTK_IM_MODULE=gtk-im-context-simple
+GROUP=qst
+GNOME_TERMINAL_SERVICE=:1.232
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/69ef7135_512b_48b3_8045_b9cea17eef47
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GCC_HOME=/home/EDA/EDA_TOOLS/Cadence/ius/ius82/tools/systemc/gcc/install
+FM_HOME=/home/EDA/EDA_TOOLS/Synopsys/Formality2016
+DC_HOME=/home/EDA/EDA_TOOLS/Synopsys/K-2015.06-SP5-5
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-LByzNKrsAd,guid=7f84ae91c6ab2cb02e0beed060b82e09
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LByzNKrsAd,guid=7f84ae91c6ab2cb02e0beed060b82e09
+COLORTERM=truecolor
+CDS_ROOT=/home/EDA/EDA_TOOLS/Cadence/IC617
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=/home/EDA/EDA_TOOLS/license/license.dat
+CDS_INST_DIR=/home/EDA/EDA_TOOLS/Cadence/IC617
+CDS_INSTALL_DIR=/home/EDA/EDA_TOOLS/Cadence/tools/dfII
+CDS_AUTO_64BIT=ALL
+CDSDIR=/home/EDA/EDA_TOOLS/Cadence/IC617
+CALIBRE_HOME=/home/EDA/EDA_TOOLS/Mentor/ixl_cal_2016.2_26.21/aoi_cal_2016.2_26.21
+ANSYS_HOME=/home/eda/EDA_TOOLS/NewFolder/AnsysEM18.1
+0
+8
+1620911561 aestop.mapped.sdf
+1608633415 /home/qst/hu40nmlib/1.02a/verilog/2.1/hu40npksdst.v
+1620911560 aestop.mapped.v
+1620912060 aestop_tb2.v
+1393560710 /home/EDA/EDA_TOOLS/Synopsys/VCS2014/include/cm_vcsd.tab
+1620912022 file_list.f
+1393560725 /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/vcsd.tab
+1453442056 /home/EDA/EDA_TOOLS/Synopsys/Verdi2015/share/PLI/VCS/LINUX64/novas.tab
+4
+0 
+1393562378 /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/libvirsim.so
+1393562197 /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/liberrorinf.so
+1393562054 /home/EDA/EDA_TOOLS/Synopsys/VCS2014/amd64/lib/libsnpsmalloc.so

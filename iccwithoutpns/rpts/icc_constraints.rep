@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : constraint
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sat May 15 07:36:01 2021
+****************************************
+
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : -40/25/125
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    INOUT                        0.00      1.00      0.00
+    INPUT                        0.00      1.00      0.00
+    OUTPUT                       0.00      1.00      0.00
+    clk                          0.73      1.00      0.73
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                  0.73
+
+                              Total Neg  Critical
+    Group (critical_range)      Slack    Endpoints   Cost
+    -----------------------------------------------------
+    INOUT                        0.00         0      0.00
+    INPUT                        0.00         0      0.00
+    OUTPUT                       0.00         0      0.00
+    clk                         68.49         1      0.73
+    default                      0.00         0      0.00
+    -----------------------------------------------------
+    critical_range                                   0.73
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    INOUT                        0.00      1.00      0.00
+    INPUT                        0.00      1.00      0.00
+    OUTPUT                       0.00      1.00      0.00
+    clk                          0.00      1.00      0.00
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    sequential_clock_pulse_width                     0.00 (MET)
+    multiport_net                                    0.00 (MET)
+    max_delay/setup                                  0.73 (VIOLATED)
+    critical_range                                   0.73 (VIOLATED)
+    min_delay/hold                                   0.00 (MET)
+    max_transition                                   0.00 (MET)
+    max_capacitance                                  0.00 (MET)
+    max_fanout                                       0.00 (MET)
+
+
+1

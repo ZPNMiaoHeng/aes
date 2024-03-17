@@ -1,0 +1,215 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -capacitance
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Tue May 11 09:54:01 2021
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: SS0P99VN40C   Library: hu40npksdst_ss0p99vn40c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MAX
+	Extraction derating : -40/-40/-40
+
+Information: Percent of Arnoldi-based delays = 12.34%
+
+  Startpoint: load_shift (input port clocked by clk)
+  Endpoint: cryptdap/reg_8_4/dout_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUT
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                 0.25       0.25
+  input external delay                                                        0.50       0.75 r
+  load_shift (in)                                                   0.10      0.00 @     0.75 r
+  load_shift (net)                              1         0.03                0.00       0.75 r
+  U4434/B1 (SEN_OR3B_1)                                             0.10      0.01 @     0.76 r
+  U4434/X (SEN_OR3B_1)                                              0.23      0.20       0.96 r
+  dataregen (net)                              10         0.01                0.00       0.96 r
+  cryptdap/wrregen (cryptdap)                                                 0.00       0.96 r
+  cryptdap/wrregen (net)                                  0.01                0.00       0.96 r
+  cryptdap/U1023/A1 (SEN_AN2_1)                                     0.23      0.00 &     0.96 r
+  cryptdap/U1023/X (SEN_AN2_1)                                      0.10      0.18       1.14 r
+  cryptdap/n1810 (net)                          5         0.01                0.00       1.14 r
+  cryptdap/U2830/A (SEN_BUF_D_4)                                    0.10      0.00 &     1.15 r
+  cryptdap/U2830/X (SEN_BUF_D_4)                                    0.15      0.15 @     1.30 r
+  cryptdap/n2763 (net)                         19         0.03                0.00       1.30 r
+  cryptdap/U1039/A1 (SEN_ND2_2)                                     0.15      0.00 @     1.30 r
+  cryptdap/U1039/X (SEN_ND2_2)                                      0.34      0.26 @     1.56 f
+  cryptdap/n4296 (net)                         15         0.03                0.00       1.56 f
+  cryptdap/U3575/A (SEN_INV_3)                                      0.34      0.00 @     1.56 f
+  cryptdap/U3575/X (SEN_INV_3)                                      0.33      0.32 @     1.88 r
+  cryptdap/n2952 (net)                         20         0.05                0.00       1.88 r
+  cryptdap/U4299/B (SEN_AOI21_S_1)                                  0.33      0.00 @     1.89 r
+  cryptdap/U4299/X (SEN_AOI21_S_1)                                  0.11      0.18       2.07 f
+  cryptdap/n4235 (net)                          1         0.00                0.00       2.07 f
+  cryptdap/U4301/A2 (SEN_OA31_1)                                    0.11      0.00 &     2.07 f
+  cryptdap/U4301/X (SEN_OA31_1)                                     0.04      0.19       2.26 f
+  cryptdap/n4246 (net)                          1         0.00                0.00       2.26 f
+  cryptdap/U1741/B (SEN_OAI21_1)                                    0.04      0.00 &     2.26 f
+  cryptdap/U1741/X (SEN_OAI21_1)                                    0.10      0.04       2.30 r
+  cryptdap/n4513 (net)                          1         0.00                0.00       2.30 r
+  cryptdap/U1628/A (SEN_ND2B_S_1)                                   0.10      0.00 &     2.30 r
+  cryptdap/U1628/X (SEN_ND2B_S_1)                                   0.05      0.11       2.41 r
+  cryptdap/n3958 (net)                          1         0.00                0.00       2.41 r
+  cryptdap/reg_8_4/dout_reg[7]/D (SEN_FDPSBQ_2)                     0.05      0.00 &     2.41 r
+  data arrival time                                                                      2.41
+
+  clock clk (rise edge)                                                       2.50       2.50
+  clock network delay (propagated)                                            0.25       2.75
+  cryptdap/reg_8_4/dout_reg[7]/CK (SEN_FDPSBQ_2)                              0.00       2.75 r
+  library setup time                                                         -0.08       2.67
+  data required time                                                                     2.67
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     2.67
+  data arrival time                                                                     -2.41
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.26
+
+
+  Startpoint: cryptdap/reg_8_15/dout_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dout[6] (output port clocked by clk)
+  Path Group: OUTPUT
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                       0.00       0.00
+  clock network delay (propagated)                                            0.24       0.24
+  cryptdap/reg_8_15/dout_reg[6]/CK (SEN_FDPRBQ_4)                   0.27      0.00       0.24 r
+  cryptdap/reg_8_15/dout_reg[6]/Q (SEN_FDPRBQ_4)                    0.17      0.25 @     0.49 r
+  cryptdap/dout[6] (net)                        7         0.04                0.00       0.49 r
+  cryptdap/dout[6]_BAR (cryptdap)                                             0.00       0.49 r
+  n5268 (net)                                             0.04                0.00       0.49 r
+  U220/A (SEN_INV_S_0P65)                                           0.17      0.00 @     0.49 r
+  U220/X (SEN_INV_S_0P65)                                           0.19      0.19       0.68 f
+  n174 (net)                                    1         0.01                0.00       0.68 f
+  U219/A (SEN_INV_S_0P65)                                           0.19      0.00 &     0.68 f
+  U219/X (SEN_INV_S_0P65)                                           0.14      0.17       0.85 r
+  n173 (net)                                    1         0.00                0.00       0.85 r
+  U19/A (SEN_BUF_D_12)                                              0.14      0.00 &     0.85 r
+  U19/X (SEN_BUF_D_12)                                              1.49      0.73 @     1.58 r
+  dout[6] (net)                                 1         1.00                0.00       1.58 r
+  dout[6] (out)                                                     1.51      0.12 @     1.69 r
+  data arrival time                                                                      1.69
+
+  clock clk (rise edge)                                                       2.50       2.50
+  clock network delay (ideal)                                                 0.25       2.75
+  output external delay                                                      -0.50       2.25
+  data required time                                                                     2.25
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     2.25
+  data arrival time                                                                     -1.69
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.56
+
+
+  Startpoint: cryptdap/reg_8_12/dout_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cryptdap/reg_8_15/dout_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                       0.00       0.00
+  clock network delay (propagated)                                            0.24       0.24
+  cryptdap/reg_8_12/dout_reg[1]/CK (SEN_FDPRBQ_4)                   0.27      0.00       0.24 r
+  cryptdap/reg_8_12/dout_reg[1]/Q (SEN_FDPRBQ_4)                    0.16      0.24 @     0.48 r
+  cryptdap/outtxt[25] (net)                     9         0.03                0.00       0.48 r
+  cryptdap/invsbox_mux12/IN1 (invsbox_mux_3)                                  0.00       0.48 r
+  cryptdap/invsbox_mux12/IN1 (net)                        0.03                0.00       0.48 r
+  cryptdap/invsbox_mux12/U19/A1 (SEN_NR2_G_2)                       0.16      0.00 @     0.49 r
+  cryptdap/invsbox_mux12/U19/X (SEN_NR2_G_2)                        0.05      0.08       0.57 f
+  cryptdap/invsbox_mux12/n73 (net)              3         0.00                0.00       0.57 f
+  cryptdap/invsbox_mux12/U20/A1 (SEN_AN2_DG_3)                      0.05      0.00 &     0.57 f
+  cryptdap/invsbox_mux12/U20/X (SEN_AN2_DG_3)                       0.05      0.10       0.67 f
+  cryptdap/invsbox_mux12/n350 (net)             6         0.01                0.00       0.67 f
+  cryptdap/invsbox_mux12/U134/A2 (SEN_ND2_1)                        0.05      0.00 &     0.67 f
+  cryptdap/invsbox_mux12/U134/X (SEN_ND2_1)                         0.20      0.13       0.80 r
+  cryptdap/invsbox_mux12/n297 (net)             6         0.01                0.00       0.80 r
+  cryptdap/invsbox_mux12/U301/A1 (SEN_ND2_1)                        0.20      0.00 &     0.80 r
+  cryptdap/invsbox_mux12/U301/X (SEN_ND2_1)                         0.11      0.15       0.95 f
+  cryptdap/invsbox_mux12/n249 (net)             3         0.00                0.00       0.95 f
+  cryptdap/invsbox_mux12/U242/A1 (SEN_OR3_1)                        0.11      0.00 &     0.95 f
+  cryptdap/invsbox_mux12/U242/X (SEN_OR3_1)                         0.04      0.16       1.11 f
+  cryptdap/invsbox_mux12/n413 (net)             1         0.00                0.00       1.11 f
+  cryptdap/invsbox_mux12/U65/A2 (SEN_NR2_G_1)                       0.04      0.00 &     1.11 f
+  cryptdap/invsbox_mux12/U65/X (SEN_NR2_G_1)                        0.18      0.13       1.24 r
+  cryptdap/invsbox_mux12/n376 (net)             2         0.00                0.00       1.24 r
+  cryptdap/invsbox_mux12/U407/A (SEN_INV_1)                         0.18      0.00 &     1.24 r
+  cryptdap/invsbox_mux12/U407/X (SEN_INV_1)                         0.05      0.09       1.33 f
+  cryptdap/invsbox_mux12/n392 (net)             1         0.00                0.00       1.33 f
+  cryptdap/invsbox_mux12/U411/A1 (SEN_OAI31_G_1)                    0.05      0.00 &     1.33 f
+  cryptdap/invsbox_mux12/U411/X (SEN_OAI31_G_1)                     0.24      0.17       1.50 r
+  cryptdap/invsbox_mux12/n393 (net)             1         0.00                0.00       1.50 r
+  cryptdap/invsbox_mux12/U412/C (SEN_AOAI211_G_3)                   0.24      0.00 &     1.50 r
+  cryptdap/invsbox_mux12/U412/X (SEN_AOAI211_G_3)                   0.08      0.12       1.62 f
+  cryptdap/invsbox_mux12/n397 (net)             1         0.00                0.00       1.62 f
+  cryptdap/invsbox_mux12/U413/C (SEN_OAOI211_3)                     0.08      0.00 &     1.62 f
+  cryptdap/invsbox_mux12/U413/X (SEN_OAOI211_3)                     0.11      0.10       1.73 r
+  cryptdap/invsbox_mux12/n401 (net)             1         0.00                0.00       1.73 r
+  cryptdap/invsbox_mux12/U414/C (SEN_AOAI211_3)                     0.11      0.00 &     1.73 r
+  cryptdap/invsbox_mux12/U414/X (SEN_AOAI211_3)                     0.08      0.10       1.82 f
+  cryptdap/invsbox_mux12/out[1] (net)           2         0.00                0.00       1.82 f
+  cryptdap/invsbox_mux12/out[1] (invsbox_mux_3)                               0.00       1.82 f
+  cryptdap/invsb12out[1] (net)                            0.00                0.00       1.82 f
+  cryptdap/U2495/A2 (SEN_EO2_3)                                     0.08      0.00 &     1.82 f
+  cryptdap/U2495/X (SEN_EO2_3)                                      0.08      0.09       1.91 f
+  cryptdap/n1884 (net)                          1         0.00                0.00       1.91 f
+  cryptdap/U2496/D1 (SEN_MUXI2_DG_8)                                0.08      0.00 &     1.91 f
+  cryptdap/U2496/X (SEN_MUXI2_DG_8)                                 0.14      0.11 @     2.02 r
+  cryptdap/n3331 (net)                          8         0.02                0.00       2.02 r
+  cryptdap/U3791/A3 (SEN_EO4_DG_4)                                  0.14      0.00 @     2.02 r
+  cryptdap/U3791/X (SEN_EO4_DG_4)                                   0.06      0.28       2.31 f
+  cryptdap/n3336 (net)                          2         0.00                0.00       2.31 f
+  cryptdap/U1785/A1 (SEN_ND2_G_2)                                   0.06      0.00 &     2.31 f
+  cryptdap/U1785/X (SEN_ND2_G_2)                                    0.09      0.08       2.38 r
+  cryptdap/n4596 (net)                          1         0.01                0.00       2.38 r
+  cryptdap/U1743/A1 (SEN_ND3_T_2)                                   0.09      0.00 &     2.38 r
+  cryptdap/U1743/X (SEN_ND3_T_2)                                    0.04      0.06       2.44 f
+  cryptdap/n4595 (net)                          1         0.00                0.00       2.44 f
+  cryptdap/U3126/A1 (SEN_NR2_1)                                     0.04      0.00 &     2.44 f
+  cryptdap/U3126/X (SEN_NR2_1)                                      0.11      0.08       2.53 r
+  cryptdap/n3338 (net)                          1         0.00                0.00       2.53 r
+  cryptdap/U3796/A2 (SEN_EO2_2)                                     0.11      0.00 &     2.53 r
+  cryptdap/U3796/X (SEN_EO2_2)                                      0.16      0.11       2.64 r
+  cryptdap/n3349 (net)                          1         0.00                0.00       2.64 r
+  cryptdap/U3803/A1 (SEN_OAI211_1)                                  0.16      0.00 &     2.64 r
+  cryptdap/U3803/X (SEN_OAI211_1)                                   0.09      0.13       2.77 f
+  cryptdap/n3916 (net)                          1         0.00                0.00       2.77 f
+  cryptdap/reg_8_15/dout_reg[2]/D (SEN_FDPSBQ_4)                    0.09      0.00 &     2.77 f
+  data arrival time                                                                      2.77
+
+  clock clk (rise edge)                                                       2.50       2.50
+  clock network delay (propagated)                                            0.24       2.74
+  cryptdap/reg_8_15/dout_reg[2]/CK (SEN_FDPSBQ_4)                             0.00       2.74 r
+  library setup time                                                         -0.09       2.65
+  data required time                                                                     2.65
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     2.65
+  data arrival time                                                                     -2.77
+  ----------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                      -0.12
+
+
+1

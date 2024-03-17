@@ -1,0 +1,107 @@
+Create error cell floorplan_lvs.err ...
+
+-- LVS START : --
+Total area error in layer 0 is 0.  Elapsed =    0:00:00, CPU =    0:00:00
+Total area error in layer 1 is 0.  Elapsed =    0:00:01, CPU =    0:00:00
+Total area error in layer 2 is 0.  Elapsed =    0:00:01, CPU =    0:00:00
+Total area error in layer 3 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 4 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 5 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 6 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 7 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 8 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 9 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 10 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 11 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 12 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 13 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 14 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 15 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+** Total Floating ports are 0.
+** Total Floating Nets are 0.
+ERROR : There are 75 nets short together.
+	cryptdap/n1273 (393238).
+	cryptdap/n3281 (391701).
+	cryptdap/n4043 (455705).
+	cryptdap/n1279 (432915).
+	cryptdap/n4073 (461588).
+	cryptdap/n4060 (436747).
+	cryptdap/n3332 (411680).
+	cryptdap/n2651 (392231).
+	cryptdap/n2471 (434190).
+	cryptdap/n3767 (431649).
+	cryptdap/n3581 (441600).
+	cryptdap/n3810 (440341).
+	cryptdap/n3500 (444960).
+	cryptdap/n3650 (444928).
+	cryptdap/n3614 (443671).
+	cryptdap/n3610 (443670).
+	cryptdap/n2974 (443658).
+	cryptdap/n3800 (447253).
+	cryptdap/n2771 (444938).
+	cryptdap/n2494 (384802).
+	cryptdap/n2572 (390171).
+	cryptdap/n3111 (397061).
+	cryptdap/n4837 (912916).
+	cryptdap/n5152 (915994).
+	cryptdap/n3150 (395794).
+	cryptdap/n2842 (379140).
+	cryptdap/n3084 (374286).
+	cryptdap/n2785 (410142).
+	cryptdap/n3160 (395778).
+	cryptdap/n3274 (392214).
+	cryptdap/n2952 (395811).
+	cryptdap/n3067 (374279).
+	cryptdap/n2355 (414737).
+	cryptdap/n5174 (916487).
+	cryptdap/n2841 (416530).
+	cryptdap/n3276 (379165).
+	cryptdap/n2363 (395788).
+	cryptdap/n3166 (398374).
+	cryptdap/n5185 (916496).
+	cryptdap/n3063 (374303).
+	cryptdap/n2971 (384774).
+	cryptdap/n3087 (380705).
+	cryptdap/n3140 (390180).
+	cryptdap/n3325 (376603).
+	cryptdap/n3310 (394786).
+	cryptdap/n3082 (413728).
+	cryptdap/n2493 (384780).
+	cryptdap/n535 (431648).
+	cryptdap/n2399 (389385).
+	cryptdap/n3104 (388361).
+	cryptdap/n2138 (387095).
+	cryptdap/n3277 (393254).
+	cryptdap/n3110 (395805).
+	n2955 (524061).
+	n38 (900629).
+	cryptdap/n2728 (397076).
+	cryptdap/n2727 (376597).
+	cryptdap/n2491 (384777).
+	cryptdap/n2437 (431625).
+	n353 (903437).
+	n352 (903436).
+	cryptdap/n4181 (908058).
+	cryptdap/n2224 (907017).
+	roundkey[33] (391686).
+	cryptdap/n2128 (907015).
+	cryptdap/n5186 (916497).
+	cryptdap/n3101 (391714).
+	n33 (900624).
+	cryptdap/n2208 (907016).
+	cryptdap/n3355 (387091).
+	cryptdap/n2736 (395792).
+	cryptdap/n2552 (384781).
+	n35 (900626).
+	n369 (903447).
+	VDD (588833).
+
+** Total SHORT Nets are 1.
+** Total OPEN Nets are 0.
+** Total Electrical Equivalent Error are 0.
+** Total Must Joint Error are 0.
+
+-- LVS END : --
+Elapsed =    0:00:01, CPU =    0:00:01
+Update error cell ...
+1

@@ -1,0 +1,141 @@
+Create error cell floorplan_lvs.err ...
+
+-- LVS START : --
+Total area error in layer 0 is 0.  Elapsed =    0:00:01, CPU =    0:00:00
+Total area error in layer 1 is 0.  Elapsed =    0:00:01, CPU =    0:00:00
+Total area error in layer 2 is 0.  Elapsed =    0:00:01, CPU =    0:00:00
+Total area error in layer 3 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 4 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 5 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 6 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 7 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 8 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 9 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 10 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 11 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 12 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 13 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 14 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+Total area error in layer 15 is 0.  Elapsed =    0:00:01, CPU =    0:00:01
+** Total Floating ports are 0.
+** Total Floating Nets are 0.
+ERROR : There are 104 nets short together.
+	cryptdap/n3656 (442653).
+	cryptdap/n3823 (442627).
+	cryptdap/n2467 (438815).
+	cryptdap/n4144 (393992).
+	cryptdap/n4053 (449283).
+	cryptdap/n2893 (470288).
+	cryptdap/n2526 (445477).
+	cryptdap/n3564 (446983).
+	cryptdap/n3572 (467234).
+	cryptdap/n2682 (473352).
+	cryptdap/n3585 (453891).
+	cryptdap/n3360 (396043).
+	cryptdap/n2986 (385557).
+	cryptdap/n2716 (442648).
+	cryptdap/n2088 (480010).
+	cryptdap/n4137 (465921).
+	cryptdap/n3354 (397592).
+	cryptdap/n2878 (470292).
+	cryptdap/n3878 (451091).
+	cryptdap/n854 (449317).
+	cryptdap/n2566 (421888).
+	cryptdap/n2499 (399647).
+	cryptdap/n3265 (395785).
+	cryptdap/n3260 (416791).
+	n3282 (530213).
+	n3442 (513025).
+	n2956 (585472).
+	n2877 (532002).
+	n2879 (513032).
+	cryptdap/n1873 (390420).
+	n2609 (532000).
+	cryptdap/n3380 (423184).
+	cryptdap/n2910 (393989).
+	cryptdap/n3150 (400641).
+	cryptdap/n3145 (417557).
+	cryptdap/n3357 (387347).
+	cryptdap/n3175 (400663).
+	cryptdap/n5512 (932902).
+	cryptdap/n2920 (385539).
+	cryptdap/n4967 (928008).
+	cryptdap/sb11out[3] (245768).
+	cryptdap/n3153 (442637).
+	cryptdap/n2926 (400659).
+	cryptdap/n3161 (420110).
+	n38 (596515).
+	cryptdap/n881 (390437).
+	cryptdap/n2569 (442642).
+	cryptdap/n2919 (385538).
+	cryptdap/n3343 (400650).
+	cryptdap/n3100 (375320).
+	cryptdap/n3173 (398881).
+	cryptdap/n2404 (922141).
+	n414 (919838).
+	cryptdap/n3174 (390408).
+	cryptdap/n3210 (421905).
+	cryptdap/n3263 (390412).
+	cryptdap/n3071 (385566).
+	cryptdap/n3370 (400664).
+	cryptdap/n3363 (438808).
+	cryptdap/n2946 (379417).
+	cryptdap/n3138 (396059).
+	cryptdap/n2918 (382477).
+	cryptdap/n2831 (400662).
+	cryptdap/n2939 (397064).
+	cryptdap/n3309 (416778).
+	cryptdap/n3097 (380955).
+	cryptdap/n2695 (401958).
+	cryptdap/n2902 (397586).
+	cryptdap/n2283 (392980).
+	cryptdap/n3369 (379412).
+	cryptdap/n876 (390421).
+	cryptdap/n2581 (380965).
+	cryptdap/n3125 (423183).
+	n4576 (555040).
+	n3454 (513024).
+	cryptdap/n4697 (925475).
+	cryptdap/n4698 (925476).
+	n258 (919046).
+	n259 (919047).
+	n2934 (513031).
+	n2621 (529190).
+	n2890 (512285).
+	cryptdap/n3193 (421921).
+	cryptdap/n3312 (389398).
+	cryptdap/n3124 (417540).
+	cryptdap/n3129 (385541).
+	cryptdap/n3226 (400658).
+	cryptdap/n3087 (419108).
+	cryptdap/n2280 (477454).
+	cryptdap/n2752 (386583).
+	cryptdap/n2671 (400674).
+	cryptdap/n2734 (382499).
+	cryptdap/n2700 (401948).
+	cryptdap/n2189 (399644).
+	cryptdap/n2390 (922140).
+	cryptdap/n2624 (377882).
+	cryptdap/n4751 (926468).
+	cryptdap/n2274 (922138).
+	cryptdap/n2339 (922139).
+	cryptdap/n3146 (382483).
+	cryptdap/n2406 (922142).
+	cryptdap/n2410 (922143).
+	cryptdap/n2718 (387333).
+	VDD (596488).
+
+** Total SHORT Nets are 1.
+ERROR : Logical Net VSS is open.
+	Node 21882 is in the region ((18,18),(251,251)).
+	Node 15446 is in the region ((20,71),(249,73)).
+	Total seperated nodes are 2.
+	Potential connection region ((19, 70), (250, 74)).
+** Total OPEN Nets are 1.
+** Total Electrical Equivalent Error are 0.
+** Total Must Joint Error are 0.
+
+-- LVS END : --
+Elapsed =    0:00:02, CPU =    0:00:01
+Update error cell ...
+1

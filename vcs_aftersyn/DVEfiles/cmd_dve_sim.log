@@ -1,0 +1,33 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/qst/workspace2021/aes/vcs_aftersyn/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp9RtWbm
+synUtils::sendTool -active {_icl_start_rpc -version "I-2014.03_Full64" -sync_file /tmp/vcs_dve_rpc.qst.22769}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.qst.22769}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {aestop_tb2.clk aestop_tb2.din aestop_tb2.dout aestop_tb2.load_shift aestop_tb2.loadkey aestop_tb2.rst aestop_tb2.stadec aestop_tb2.staenc } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID
+ucliCore::getToolPID

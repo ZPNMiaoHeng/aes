@@ -1,0 +1,303 @@
+Start CPD check: ::check_tlu_plus_files 
+
+Sanity check for TLU+ vs MW-Tech files:
+ max_tlu+: ../../../../hu40nmlib/1.02a/milkyway/tlup/m07f0f1f0_RDL/hu40npksdst_m07f0f1f0_RDL_w.tlup
+ min_tlu+: **NONE**
+ mapping_file: ../../../../hu40nmlib/1.02a/milkyway/tlup/extr_layers.map
+ max_emul_tlu+: **NONE**
+ min_emul_tlu+: **NONE**
+ MW design lib: aestop_LIB
+
+--------- Sanity Check on TLUPlus Files -------------
+Info: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files.
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+1
+End CPD check: ::check_tlu_plus_files
+Start CPD check: ::get_placement_area 
+20.000 20.000 231.960 232.000
+End CPD check: ::get_placement_area
+Start CPD check: report_routing_metal_info 
+Ignored layers in congestion analysis and RC estimation: M5 M6 T4M2 RDL 
+
+Min_routing_layer: M1
+Max_routing_layer: M4
+Information: Report design vs library layers and preferred routing directions. (PNR-164)
+ 
+****************************************
+Report : Layers
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 03:46:36 2023
+****************************************
+
+Layer Name                   Library             Design              Tool understands
+M1                           Horizontal          Horizontal          Horizontal
+M2                           Horizontal          Horizontal          Horizontal
+M3                           Vertical            Vertical            Vertical
+M4                           Not Set             Horizontal          Horizontal
+M5                           Not Set             Vertical            Vertical
+M6                           Not Set             Horizontal          Horizontal
+T4M2                         Not Set             Vertical            Vertical
+RDL                          Not Set             Horizontal          Horizontal
+
+Warning: Consecutive metal layers have the same preferred routing direction. (PSYN-882)
+Information: Report track info.  (PNR-165)
+****************************************
+Report track
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 03:46:36 2023
+****************************************
+Layer          Direction     Start         Tracks    Pitch          Attr
+------------------------------------------------------------------------
+Attributes :
+         usr : User defined
+         def : DEF defined
+
+PO                 X         0.050          1800      0.140           
+M1                 X         0.050          1800      0.140           
+M2                 X         0.050          1800      0.140           
+M1                 Y         0.120          1800      0.140           
+M2                 Y         0.120          1800      0.140           
+M2                 Y         0.120          1800      0.140           
+M3                 Y         0.120          1800      0.140           
+M1                 Y         0.120          1800      0.140           
+M3                 X         0.050          1800      0.140           
+M4                 X         0.050          1800      0.140           
+M2                 X         0.050          1800      0.140           
+M4                 Y         0.050          1800      0.140           
+M5                 Y         0.050          1800      0.140           
+M3                 Y         0.050          1800      0.140           
+M5                 X         0.120          1799      0.140           
+M6                 X         0.120          1799      0.140           
+M4                 X         0.120          1799      0.140           
+M6                 Y         0.050          1800      0.140           
+T4M2               Y         0.050          1800      0.140           
+M5                 Y         0.050          1800      0.140           
+T4M2               X         0.000          315       0.800           
+RDL                X         0.000          315       0.800           
+M6                 X         0.000          315       0.800           
+RDL                Y         2.360          50        5.040           
+T4M2               Y         2.360          50        5.040           
+1
+End CPD check: report_routing_metal_info
+Start CPD check: check_track_and_unit 
+
+End CPD check: check_track_and_unit
+Start CPD check: check_layer_direction 
+
+End CPD check: check_layer_direction
+Start CPD check: check_physical_only_ports 
+Warning: No port objects matched '*' (SEL-004)
+[]
+End CPD check: check_physical_only_ports
+Start CPD check: ::check_database 
+************************************************************
+CHECK_DATABASE RESULTS FOR CELL : floorplan.CEL
+************************************************************
+MWUHIER: Checking for hierarchical internal netlist and flat internal netlist consistency ... 
+MWUHIER: Done with checking hierarchical internal netlist and flat internal netlist consistency. 
+Information: MWUHIER: Number of errors = 0 (MW-348)
+End PG consistent checking.. PG_Pass
+Information: Performing CEL netlist consistency check. (MWDC-118)
+Information: CEL consistency check PASSED. (MWDC-119)
+
+Start UPF checking.
+No UPF infomation. Finish UPF checking.
+1
+End CPD check: ::check_database
+Start CPD check: report_taint -dump_errors 
+
+****************************************
+  Report : Suggestions
+  Design : aestop
+  Version: L-2016.03-SP1
+  Date   : Sun Jun  4 03:46:36 2023
+****************************************
+
+Information: No suggestion for current design. (PSYN-1068)
+
+1
+End CPD check: report_taint -dump_errors
+Start CPD check: check_for_HFN_ideal 
+
+End CPD check: check_for_HFN_ideal
+Start CPD check: check_for_dont_touch_net_with_drc_violation 
+
+End CPD check: check_for_dont_touch_net_with_drc_violation
+Start CPD check: check_block_abstraction -stage pre_clock_opt 
+Information: No blocks with abstraction information found
+1
+End CPD check: check_block_abstraction -stage pre_clock_opt
+Start CPD check: check_placement_utilization_violation 
+ 
+****************************************
+  Report : Chip Summary
+  Design : aestop
+  Version: L-2016.03-SP1
+  Date   : Sun Jun  4 03:46:37 2023
+****************************************
+Std cell utilization: 83.65%  (212770/(254352-0))
+(Non-fixed + Fixed)
+Std cell utilization: 86.15%  (212770/(254352-7363))
+(Non-fixed only)
+Chip area:            254352   sites, bbox (20.00 20.00 231.96 232.00) um
+Std cell area:        212770   sites, (non-fixed:212770 fixed:0)
+                      21625    cells, (non-fixed:21625  fixed:0)
+Macro cell area:      0        sites
+                      0        cells
+Placement blockages:  0        sites, (excluding fixed std cells)
+                      7363     sites, (include fixed std cells & chimney area)
+                      0        sites, (complete p/g net blockages)
+Routing blockages:    0        sites, (partial p/g net blockages)
+                      0        sites, (routing blockages and signal pre-route)
+Lib cell count:       614 
+Avg. std cell width:  2.65 um 
+Site array:           unit     (width: 0.14 um, height: 1.26 um, rows: 168)
+Physical DB scale:    1000 db_unit = 1 um 
+
+ 
+****************************************
+  Report : pnet options
+  Design : aestop
+  Version: L-2016.03-SP1
+  Date   : Sun Jun  4 03:46:37 2023
+****************************************
+
+
+--------------------------------------------------------------------
+Layer      Blockage   Min_width   Min_height   Via_additive     Density
+--------------------------------------------------------------------
+M1         none          ---         ---       via additive      ---
+M2         none          ---         ---       via additive      ---
+M3         none          ---         ---       via additive      ---
+M4         none          ---         ---       via additive      ---
+M5         complete    0.00        0.00        via additive      ---
+M6         complete    0.00        0.00        via additive      ---
+T4M2       none          ---         ---       via additive      ---
+RDL        none          ---         ---       via additive      ---
+
+**********************************
+      Sub-Region Utilization      
+**********************************
+Number of regions with placement utilization 0 - 0.125 is 0 (0.00%)
+Number of regions with placement utilization 0.125 - 0.25 is 0 (0.00%)
+Number of regions with placement utilization 0.25 - 0.375 is 2 (0.17%)
+Number of regions with placement utilization 0.375 - 0.5 is 7 (0.61%)
+Number of regions with placement utilization 0.5 - 0.625 is 14 (1.21%)
+Number of regions with placement utilization 0.625 - 0.75 is 80 (6.92%)
+Number of regions with placement utilization 0.75 - 0.875 is 461 (39.88%)
+Number of regions with placement utilization 0.875 - 1 is 592 (51.21%)
+1
+
+1
+End CPD check: check_placement_utilization_violation
+Start CPD check: check_legality_violation 
+
+  Loading design 'aestop'
+
+
+Information: The design has 1271 physical cells. (PSYN-105)
+[begin initializing data for legality checker]
+
+Initializing Data Structure ...
+INFO: legalizer_via_spacing_check_mode 0
+  Reading technology information ...
+    Technology table contains 8 routable metal layers
+    Top most routable layer is set to be metal4
+    This is considered as a 4-metal-layer design
+    Reading library information from DB ...
+  Reading misc information ...
+    array <unit> has 0 vertical and 168 horizontal rows
+    GRC ref loc X corrected
+    GRC ref loc Y corrected
+    2008 pre-routes for map congestion calculation
+  Checking information read in ...
+    design style = Horizontal masters, Horizontal rows
+
+  Preprocessing design ...
+    splitting rows by natural obstacles ...
+... design style 0
+... number of base array 1 0
+INFO:... use original rows...
+[end initializing data for legality checker]
+Warning: The lib cell (SEN_ND2_TY2_24) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_EN2_GY2_16) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_EN4_DGY2_8) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_MUXI2_DGY2_16) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_EO4_DGY2_8) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_ND2_GY2_32) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: The lib cell (SEN_EO2_GY2_16) height (2520) is different from its site height(1260). (PSYN-069)
+Warning: Die area is not integer multiples of min site width (140), object's width and height(251960,252000). (PSYN-523)
+Warning: Core area is not integer multiples of min site height (1260), object's width and height(211960,212000). (PSYN-523)
+
+**************************************************** 
+Check_legality: Report for Fixed Placement Cells
+Information: Use the -verbose option to get details about the legality violations. (PSYN-054)
+**************************************************** 
+(fixed placement) Cells Not on Row            : 0
+(fixed placement) Cell Overlaps               : 0
+(fixed placement) Cells overlapping blockages : 0
+(fixed placement) Orientation Violations      : 0
+(fixed placement) Site Violations             : 0
+(fixed placement) Power Strap Violations      : 0
+****************************************************** 
+
+****************************************************** 
+Check_legality: Report for Non-fixed Placement Cells
+Information: Use the -verbose option to get details about the legality violations. (PSYN-054)
+****************************************************** 
+Number of Cells Not on Row            : 0
+Number of Cell Overlaps               : 0
+Number of Cells overlapping blockages : 0
+Number of Orientation Violations      : 0
+Number of Site Violations             : 0
+Number of Power Strap Violations      : 0
+******************************************** 
+
+  Total moveable cell area: 37532.6
+  Total fixed cell area: 0.0
+  Total physical cell area: 37532.6
+  Core area: (20000 20000 231960 232000)
+1
+
+
+End CPD check: check_legality_violation
+Start CPD check: cpd_check_tie_connection 
+0
+End CPD check: cpd_check_tie_connection
+Start CPD check: cpd_check_cells_restrictions 
+0
+End CPD check: cpd_check_cells_restrictions
+Start CPD check: check_unplaced_cells 
+1
+End CPD check: check_unplaced_cells
+Start CPD check: check_clock_tree 
+Information: Updating design information... (UID-85)
+
+*********************** Check_Clock_Tree Summary Report ************************
+There is no issue found !
+******************** End of Check_Clock_Tree Summary Report ********************
+1
+End CPD check: check_clock_tree
+Start CPD check: check_net_routing_rules 
+
+****************************************
+Report : net routing rules
+Design : floorplan
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 03:46:38 2023
+****************************************
+
+
+ ---------- All nets use DEFAULT routing rule ----------
+ -------------------------------------------------------
+
+1
+End CPD check: check_net_routing_rules

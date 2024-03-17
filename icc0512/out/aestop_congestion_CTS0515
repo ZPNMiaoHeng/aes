@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : clock timing
+        -type skew
+        -nworst 1
+        -setup
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 05:05:14 2023
+****************************************
+
+  Clock: clk
+  Clock Pin                              Latency             Skew
+----------------------------------------------------------------------------
+  control/decryptfsm/dec_state_reg[0]/CK 0.25                          wr-+
+  control/decryptfsm/dec_state_reg[0]/CK 0.25                0.00      wr-+
+----------------------------------------------------------------------------
+
+1

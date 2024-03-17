@@ -1,0 +1,134 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sun Jun  4 05:03:58 2023
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: SS0P99V125C   Library: hu40npksdst_ss0p99v125c
+
+  Startpoint: load_shift (input port clocked by clk)
+  Endpoint: cryptdap/reg_8_14/dout_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUT
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.25       0.25
+  input external delay                                    0.50       0.75 f
+  load_shift (in)                                         0.05       0.80 f
+  U5636/X (SEN_OR3B_4)                                    0.14       0.94 f
+  cryptdap/wrregen (cryptdap)                             0.00       0.94 f
+  cryptdap/U3927/X (SEN_AN2_S_3)                          0.10       1.04 f
+  cryptdap/U4001/X (SEN_INV_2)                            0.04       1.08 r
+  cryptdap/U4000/X (SEN_INV_2)                            0.12       1.20 f
+  cryptdap/U4095/X (SEN_AOI22_1)                          0.28       1.48 r
+  cryptdap/U3751/X (SEN_OAI211_3)                         0.17       1.65 f
+  cryptdap/reg_8_14/dout_reg[0]/D (SEN_FDPSBQ_4)          0.00       1.65 f
+  data arrival time                                                  1.65
+
+  clock clk (rise edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.25       2.75
+  clock uncertainty                                      -0.13       2.62
+  cryptdap/reg_8_14/dout_reg[0]/CK (SEN_FDPSBQ_4)         0.00       2.62 r
+  library setup time                                     -0.18       2.44
+  data required time                                                 2.44
+  --------------------------------------------------------------------------
+  data required time                                                 2.44
+  data arrival time                                                 -1.65
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.79
+
+
+  Startpoint: cryptdap/reg_8_15/dout_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dout[1] (output port clocked by clk)
+  Path Group: OUTPUT
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.25       0.25
+  cryptdap/reg_8_15/dout_reg[1]/CK (SEN_FDPRBQ_V2_3)      0.00       0.25 r
+  cryptdap/reg_8_15/dout_reg[1]/Q (SEN_FDPRBQ_V2_3)       0.21       0.46 r
+  cryptdap/U317/X (SEN_BUF_2)                             0.12       0.58 r
+  cryptdap/U346/X (SEN_BUF_10)                            0.91       1.50 r
+  cryptdap/dout[1] (cryptdap)                             0.00       1.50 r
+  dout[1] (out)                                           0.00       1.50 r
+  data arrival time                                                  1.50
+
+  clock clk (rise edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.25       2.75
+  clock uncertainty                                      -0.13       2.62
+  output external delay                                  -0.50       2.12
+  data required time                                                 2.12
+  --------------------------------------------------------------------------
+  data required time                                                 2.12
+  data arrival time                                                 -1.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.62
+
+
+  Startpoint: cryptdap/reg_8_6/dout_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cryptdap/reg_8_5/dout_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.25       0.25
+  cryptdap/reg_8_6/dout_reg[3]/CK (SEN_FDPRBQ_4)          0.00       0.25 r
+  cryptdap/reg_8_6/dout_reg[3]/Q (SEN_FDPRBQ_4)           0.14       0.39 f
+  cryptdap/sbox_mux6/in[3] (sbox_mux_13)                  0.00       0.39 f
+  cryptdap/sbox_mux6/U12/X (SEN_INV_3)                    0.05       0.43 r
+  cryptdap/sbox_mux6/U11/X (SEN_NR2_G_3)                  0.03       0.46 f
+  cryptdap/sbox_mux6/U68/X (SEN_ND2_2)                    0.05       0.52 r
+  cryptdap/sbox_mux6/U102/X (SEN_INV_2)                   0.05       0.57 f
+  cryptdap/sbox_mux6/U146/X (SEN_ND2_1)                   0.05       0.61 r
+  cryptdap/sbox_mux6/U147/X (SEN_INV_1)                   0.06       0.67 f
+  cryptdap/sbox_mux6/U348/X (SEN_NR4_1)                   0.10       0.78 r
+  cryptdap/sbox_mux6/U349/X (SEN_AN4B_1)                  0.22       1.00 r
+  cryptdap/sbox_mux6/U355/X (SEN_AOI31_2)                 0.11       1.10 f
+  cryptdap/sbox_mux6/U356/X (SEN_AOI211_3)                0.12       1.22 r
+  cryptdap/sbox_mux6/U357/X (SEN_AOAI211_3)               0.15       1.37 f
+  cryptdap/sbox_mux6/out[5] (sbox_mux_13)                 0.00       1.37 f
+  cryptdap/U1166/X (SEN_MUXI2_DG_8)                       0.14       1.51 r
+  cryptdap/U1178/X (SEN_EN2_5)                            0.14       1.65 r
+  cryptdap/U4221/X (SEN_EO2_8)                            0.11       1.76 r
+  cryptdap/U1430/X (SEN_EO2_S_5)                          0.09       1.85 r
+  cryptdap/U4241/X (SEN_EN2_S_6)                          0.09       1.94 r
+  cryptdap/U4258/X (SEN_EN2_S_6)                          0.08       2.02 r
+  cryptdap/U1311/X (SEN_EO2_S_5)                          0.09       2.11 r
+  cryptdap/U3510/X (SEN_EO4_DG_4)                         0.26       2.37 f
+  cryptdap/U3732/X (SEN_OAI211_3)                         0.07       2.45 r
+  cryptdap/reg_8_5/dout_reg[3]/D (SEN_FDPSBQ_4)           0.00       2.45 r
+  data arrival time                                                  2.45
+
+  clock clk (rise edge)                                   2.50       2.50
+  clock network delay (ideal)                             0.25       2.75
+  clock uncertainty                                      -0.13       2.62
+  cryptdap/reg_8_5/dout_reg[3]/CK (SEN_FDPSBQ_4)          0.00       2.62 r
+  library setup time                                     -0.13       2.49
+  data required time                                                 2.49
+  --------------------------------------------------------------------------
+  data required time                                                 2.49
+  data arrival time                                                 -2.45
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.04
+
+
+1

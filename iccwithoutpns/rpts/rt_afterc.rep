@@ -1,0 +1,213 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : aestop
+Version: L-2016.03-SP1
+Date   : Sat May 15 04:54:21 2021
+****************************************
+
+
+   max_delay/setup ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   cryptdap/reg_8_2/dout_reg[0]/D
+                                2.49           2.58 r        -0.10  (VIOLATED)
+   cryptdap/reg_8_0/dout_reg[3]/D
+                                2.46           2.49 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_7/dout_reg[5]/D
+                                2.45           2.47 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_6/dout_reg[1]/D
+                                2.47           2.49 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_3/dout_reg[3]/D
+                                2.48           2.50 r        -0.02  (VIOLATED)
+   cryptdap/reg_8_2/dout_reg[4]/D
+                                2.47           2.49 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_6/dout_reg[0]/D
+                                2.47           2.49 r        -0.02  (VIOLATED)
+   cryptdap/reg_8_1/dout_reg[2]/D
+                                2.44           2.46 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_2/dout_reg[1]/D
+                                2.46           2.47 f        -0.02  (VIOLATED)
+   cryptdap/reg_8_6/dout_reg[6]/D
+                                2.50           2.52 r        -0.02  (VIOLATED)
+   cryptdap/reg_8_5/dout_reg[3]/D
+                                2.45           2.46 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_3/dout_reg[4]/D
+                                2.54           2.56 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_1/dout_reg[3]/D
+                                2.46           2.47 f        -0.01  (VIOLATED)
+   keyexp/rndkreg/dout_reg[10]/D
+                                2.43           2.44 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[1]/D
+                                2.46           2.48 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[6]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_7/dout_reg[4]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_1/dout_reg[4]/D
+                                2.48           2.49 r        -0.01  (VIOLATED)
+   keyexp/rndkreg/dout_reg[31]/D
+                                2.48           2.49 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_9/dout_reg[1]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_10/dout_reg[3]/D
+                                2.48           2.49 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_2/dout_reg[7]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_12/dout_reg[5]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_1/dout_reg[1]/D
+                                2.50           2.51 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_9/dout_reg[3]/D
+                                2.50           2.51 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_13/dout_reg[2]/D
+                                2.45           2.46 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_2/dout_reg[3]/D
+                                2.46           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_3/dout_reg[6]/D
+                                2.46           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_6/dout_reg[4]/D
+                                2.47           2.48 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_10/dout_reg[5]/D
+                                2.46           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_0/dout_reg[1]/D
+                                2.48           2.49 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_3/dout_reg[5]/D
+                                2.48           2.49 r        -0.01  (VIOLATED)
+   keyexp/rndkreg/dout_reg[29]/D
+                                2.48           2.49 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_0/dout_reg[5]/D
+                                2.47           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[0]/D
+                                2.48           2.49 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_11/dout_reg[5]/D
+                                2.50           2.51 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_5/dout_reg[4]/D
+                                2.47           2.48 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_11/dout_reg[3]/D
+                                2.45           2.46 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_5/dout_reg[1]/D
+                                2.48           2.49 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[4]/D
+                                2.46           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_3/dout_reg[1]/D
+                                2.45           2.46 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[3]/D
+                                2.45           2.46 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_14/dout_reg[6]/D
+                                2.47           2.47 f        -0.01  (VIOLATED)
+   cryptdap/reg_8_4/dout_reg[5]/D
+                                2.49           2.50 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_6/dout_reg[5]/D
+                                2.47           2.48 r        -0.01  (VIOLATED)
+   cryptdap/reg_8_0/dout_reg[4]/D
+                                2.49           2.50 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_12/dout_reg[7]/D
+                                2.46           2.46 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[2]/D
+                                2.46           2.47 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_12/dout_reg[4]/D
+                                2.46           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_7/dout_reg[1]/D
+                                2.47           2.47 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_2/dout_reg[5]/D
+                                2.45           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_8/dout_reg[0]/D
+                                2.46           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_9/dout_reg[7]/D
+                                2.48           2.48 r         0.00  (VIOLATED: increase significant digits)
+   keyexp/rndkreg/dout_reg[106]/D
+                                2.40           2.40 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_7/dout_reg[3]/D
+                                2.49           2.49 r         0.00  (VIOLATED: increase significant digits)
+   keyexp/deckeyreg/dout_reg[30]/D
+                                2.55           2.55 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_12/dout_reg[0]/D
+                                2.48           2.48 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_15/dout_reg[1]/D
+                                2.46           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_5/dout_reg[6]/D
+                                2.49           2.49 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_11/dout_reg[6]/D
+                                2.45           2.45 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_3/dout_reg[2]/D
+                                2.53           2.53 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_5/dout_reg[0]/D
+                                2.45           2.45 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_10/dout_reg[2]/D
+                                2.45           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_15/dout_reg[2]/D
+                                2.47           2.47 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[5]/D
+                                2.47           2.47 r         0.00  (VIOLATED: increase significant digits)
+   keyexp/deckeyreg/dout_reg[31]/D
+                                2.48           2.48 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_15/dout_reg[6]/D
+                                2.53           2.53 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_9/dout_reg[0]/D
+                                2.47           2.47 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[0]/D
+                                2.44           2.45 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_7/dout_reg[2]/D
+                                2.47           2.47 r         0.00  (VIOLATED: increase significant digits)
+   keyexp/deckeyreg/dout_reg[28]/D
+                                2.47           2.47 f         0.00  (VIOLATED: increase significant digits)
+   keyexp/rndkreg/dout_reg[25]/D
+                                2.47           2.47 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_0/dout_reg[7]/D
+                                2.45           2.45 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_11/dout_reg[2]/D
+                                2.50           2.50 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_13/dout_reg[6]/D
+                                2.49           2.49 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_13/dout_reg[3]/D
+                                2.47           2.47 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_8/dout_reg[4]/D
+                                2.47           2.47 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[3]/D
+                                2.49           2.49 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_10/dout_reg[4]/D
+                                2.50           2.50 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_11/dout_reg[1]/D
+                                2.46           2.46 f         0.00  (VIOLATED: increase significant digits)
+   keyexp/rndkreg/dout_reg[26]/D
+                                2.45           2.45 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_11/dout_reg[4]/D
+                                2.53           2.54 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_15/dout_reg[7]/D
+                                2.51           2.51 f         0.00  (VIOLATED: increase significant digits)
+   keyexp/deckeyreg/dout_reg[10]/D
+                                2.48           2.48 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_2/dout_reg[6]/D
+                                2.47           2.47 f         0.00  (VIOLATED: increase significant digits)
+   keyexp/rndkreg/dout_reg[2]/D
+                                2.44           2.44 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_15/dout_reg[4]/D
+                                2.48           2.48 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_13/dout_reg[5]/D
+                                2.50           2.50 r         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[1]/D
+                                2.46           2.46 f         0.00  (VIOLATED: increase significant digits)
+   cryptdap/reg_8_14/dout_reg[7]/D
+                                2.49           2.49 r         0.00  (VIOLATED: increase significant digits)
+   keyexp/rndkreg/dout_reg[23]/D
+                                2.55           2.55 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_fanout
+
+                             Required        Actual
+   Net                        Fanout         Fanout          Slack
+   -----------------------------------------------------------------
+   cryptdap/n3025              50.00          56.00          -6.00  (VIOLATED)
+   n3                          50.00          55.00          -5.00  (VIOLATED)
+   n44                         50.00          55.00          -5.00  (VIOLATED)
+   cryptdap/n3209              50.00          51.00          -1.00  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      4                 -17.00  
+
+1

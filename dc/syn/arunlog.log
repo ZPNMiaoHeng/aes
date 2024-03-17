@@ -1,0 +1,1080 @@
+Removing physical design 'aestop'
+Removing design 'aestop'
+Removing design 'invsbox_mux_0'
+Removing design 'invsbox_mux_1'
+Removing design 'invsbox_mux_2'
+Removing design 'invsbox_mux_3'
+Removing design 'invsbox_mux_4'
+Removing design 'invsbox_mux_5'
+Removing design 'invsbox_mux_6'
+Removing design 'invsbox_mux_7'
+Removing design 'invsbox_mux_8'
+Removing design 'invsbox_mux_9'
+Removing design 'invsbox_mux_10'
+Removing design 'invsbox_mux_11'
+Removing design 'invsbox_mux_12'
+Removing design 'invsbox_mux_13'
+Removing design 'invsbox_mux_14'
+Removing design 'sbox_mux_6'
+Removing design 'sbox_mux_7'
+Removing design 'sbox_mux_8'
+Removing design 'sbox_mux_9'
+Removing design 'sbox_mux_10'
+Removing design 'sbox_mux_11'
+Removing design 'sbox_mux_12'
+Removing design 'sbox_mux_13'
+Removing design 'sbox_mux_14'
+Removing design 'sbox_mux_15'
+Removing design 'sbox_mux_16'
+Removing design 'sbox_mux_17'
+Removing design 'sbox_mux_18'
+Removing design 'cryptdap'
+target_library       = " ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db  ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v0c.db  ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v125c.db  ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v0c.db  ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v125c.db  ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9vn40c.db  "
+link_library         = "../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v0c.db ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v125c.db ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v0c.db ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v125c.db ../../../../hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9vn40c.db"
+
+Sanity check for TLU+ vs MW-Tech files:
+ max_tlu+: ../../../../hu40nmlib/1.02a/milkyway/tlup/m07f0f1f0_RDL/hu40npksdst_m07f0f1f0_RDL_w.tlup
+ min_tlu+: **NONE**
+ mapping_file: ../../../../hu40nmlib/1.02a/milkyway/tlup/extr_layers.map
+ max_emul_tlu+: **NONE**
+ min_emul_tlu+: **NONE**
+ MW design lib: aes_mw
+
+--------- Sanity Check on TLUPlus Files -------------
+Info: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files.
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+Running PRESTO HDLC
+Compiling source file ../../rtl/aestop_asic_1026/aestop.v
+Compiling source file ../../rtl/aestop_asic_1026/byte02.v
+Compiling source file ../../rtl/aestop_asic_1026/byte9bde.v
+Compiling source file ../../rtl/aestop_asic_1026/byte0203.v
+Compiling source file ../../rtl/aestop_asic_1026/control.v
+Compiling source file ../../rtl/aestop_asic_1026/cryptdap.v
+Compiling source file ../../rtl/aestop_asic_1026/decryptfsm.v
+Compiling source file ../../rtl/aestop_asic_1026/encryptfsm.v
+Compiling source file ../../rtl/aestop_asic_1026/invsbox_mux.v
+Compiling source file ../../rtl/aestop_asic_1026/keyexp.v
+Compiling source file ../../rtl/aestop_asic_1026/mux21_8.v
+Compiling source file ../../rtl/aestop_asic_1026/mux21_128.v
+Compiling source file ../../rtl/aestop_asic_1026/mux41_8.v
+Compiling source file ../../rtl/aestop_asic_1026/mux41_128.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_0.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_128_rst.v
+Compiling source file ../../rtl/aestop_asic_1026/sbox_mux.v
+Compiling source file ../../rtl/aestop_asic_1026/shfreg_128.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_1.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_2.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_3.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_4.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_5.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_6.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_7.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_8.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_9.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_10.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_11.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_12.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_13.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_14.v
+Compiling source file ../../rtl/aestop_asic_1026/reg_8_15.v
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'aestop'.
+Information: Building the design 'cryptdap'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'keyexp'. (HDL-193)
+
+Statistics for case statements in always block at line 26 in file
+	'../../rtl/aestop_asic_1026/keyexp.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            27            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'control'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'sbox_mux'. (HDL-193)
+
+Statistics for case statements in always block at line 8 in file
+	'../../rtl/aestop_asic_1026/sbox_mux.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'invsbox_mux'. (HDL-193)
+
+Statistics for case statements in always block at line 8 in file
+	'../../rtl/aestop_asic_1026/invsbox_mux.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux21_8'. (HDL-193)
+
+Statistics for case statements in always block at line 9 in file
+	'../../rtl/aestop_asic_1026/mux21_8.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'byte0203'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'byte9bde'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux41_8'. (HDL-193)
+
+Statistics for case statements in always block at line 9 in file
+	'../../rtl/aestop_asic_1026/mux41_8.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux21_128'. (HDL-193)
+
+Statistics for case statements in always block at line 9 in file
+	'../../rtl/aestop_asic_1026/mux21_128.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_0'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_0 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_0.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_1'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_1 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_1.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_2'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_2 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_2.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   6   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_3'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_3 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_3.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_4'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_4 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_4.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_5'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_5 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_5.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_6'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_6 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_6.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_7'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_7 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_7.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_8'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_8 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_8.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_9'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_9 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_9.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_10'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_10 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_10.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_11'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_11 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_11.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_12'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_12 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_12.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_13'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_13 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_13.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_14'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_14 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_14.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_8_15'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_8_15 line 9 in file
+		'../../rtl/aestop_asic_1026/reg_8_15.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'shfreg_128'. (HDL-193)
+
+Inferred memory devices in process
+	in routine shfreg_128 line 9 in file
+		'../../rtl/aestop_asic_1026/shfreg_128.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |  63   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      dout_reg       | Flip-flop |  65   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux41_128'. (HDL-193)
+
+Statistics for case statements in always block at line 9 in file
+	'../../rtl/aestop_asic_1026/mux41_128.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_128_rst'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_128_rst line 9 in file
+		'../../rtl/aestop_asic_1026/reg_128_rst.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dout_reg       | Flip-flop |  60   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      dout_reg       | Flip-flop |  68   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'encryptfsm'. (HDL-193)
+
+Statistics for case statements in always block at line 23 in file
+	'../../rtl/aestop_asic_1026/encryptfsm.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            24            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 52 in file
+	'../../rtl/aestop_asic_1026/encryptfsm.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            53            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine encryptfsm line 17 in file
+		'../../rtl/aestop_asic_1026/encryptfsm.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    enc_state_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'decryptfsm'. (HDL-193)
+
+Statistics for case statements in always block at line 23 in file
+	'../../rtl/aestop_asic_1026/decryptfsm.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            24            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 51 in file
+	'../../rtl/aestop_asic_1026/decryptfsm.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            52            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine decryptfsm line 17 in file
+		'../../rtl/aestop_asic_1026/decryptfsm.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    dec_state_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'byte02'. (HDL-193)
+Presto compilation completed successfully.
+
+  Linking design 'aestop'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  hu40npksdst_ss0p99vn40c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db
+  hu40npksdst_ss0p99v0c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v0c.db
+  hu40npksdst_ss0p99v125c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v125c.db
+  hu40npksdst_ss0p9v0c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v0c.db
+  hu40npksdst_ss0p9v125c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v125c.db
+  hu40npksdst_ss0p9vn40c (library)
+                              /home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9vn40c.db
+
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06-SP5-5
+Date:        Thu May 13 09:08:00 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     21
+    Feedthrough (LINT-29)                                           8
+    Shorted outputs (LINT-31)                                       6
+    Constant outputs (LINT-52)                                      7
+
+Cells                                                              32
+    Nets connected to multiple pins on same cell (LINT-33)         32
+--------------------------------------------------------------------------------
+
+Warning: In design 'byte0203', input port 'a[6]' is connected directly to output port 'a02[7]'. (LINT-29)
+Warning: In design 'byte0203', input port 'a[5]' is connected directly to output port 'a02[6]'. (LINT-29)
+Warning: In design 'byte0203', input port 'a[4]' is connected directly to output port 'a02[5]'. (LINT-29)
+Warning: In design 'byte0203', input port 'a[1]' is connected directly to output port 'a02[2]'. (LINT-29)
+Warning: In design 'byte02', input port 'a[6]' is connected directly to output port 'a02[7]'. (LINT-29)
+Warning: In design 'byte02', input port 'a[5]' is connected directly to output port 'a02[6]'. (LINT-29)
+Warning: In design 'byte02', input port 'a[4]' is connected directly to output port 'a02[5]'. (LINT-29)
+Warning: In design 'byte02', input port 'a[1]' is connected directly to output port 'a02[2]'. (LINT-29)
+Warning: In design 'encryptfsm', output port 'keysel[0]' is connected directly to output port 'reginsel'. (LINT-31)
+Warning: In design 'encryptfsm', output port 'keysel[0]' is connected directly to output port 'mixsel'. (LINT-31)
+Warning: In design 'encryptfsm', output port 'keysel[0]' is connected directly to output port 'sboxinsel'. (LINT-31)
+Warning: In design 'decryptfsm', output port 'keysel[0]' is connected directly to output port 'mixsel'. (LINT-31)
+Warning: In design 'decryptfsm', output port 'keysel[0]' is connected directly to output port 'sboxinsel'. (LINT-31)
+Warning: In design 'decryptfsm', output port 'keyadsel[1]' is connected directly to output port 'keyadsel[0]'. (LINT-31)
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[31]' is connected to pins 'c[127]', 'd[127]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[30]' is connected to pins 'c[126]', 'd[126]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[29]' is connected to pins 'c[125]', 'd[125]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[28]' is connected to pins 'c[124]', 'd[124]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[27]' is connected to pins 'c[123]', 'd[123]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[26]' is connected to pins 'c[122]', 'd[122]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[25]' is connected to pins 'c[121]', 'd[121]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[24]' is connected to pins 'c[120]', 'd[120]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[23]' is connected to pins 'c[119]', 'd[119]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[22]' is connected to pins 'c[118]', 'd[118]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[21]' is connected to pins 'c[117]', 'd[117]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[20]' is connected to pins 'c[116]', 'd[116]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[19]' is connected to pins 'c[115]', 'd[115]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[18]' is connected to pins 'c[114]', 'd[114]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[17]' is connected to pins 'c[113]', 'd[113]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[16]' is connected to pins 'c[112]', 'd[112]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[15]' is connected to pins 'c[111]', 'd[111]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[14]' is connected to pins 'c[110]', 'd[110]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[13]' is connected to pins 'c[109]', 'd[109]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[12]' is connected to pins 'c[108]', 'd[108]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[11]' is connected to pins 'c[107]', 'd[107]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[10]' is connected to pins 'c[106]', 'd[106]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[9]' is connected to pins 'c[105]', 'd[105]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[8]' is connected to pins 'c[104]', 'd[104]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[7]' is connected to pins 'c[103]', 'd[103]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[6]' is connected to pins 'c[102]', 'd[102]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[5]' is connected to pins 'c[101]', 'd[101]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[4]' is connected to pins 'c[100]', 'd[100]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[3]' is connected to pins 'c[99]', 'd[99]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[2]' is connected to pins 'c[98]', 'd[98]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[1]' is connected to pins 'c[97]', 'd[97]''.
+Warning: In design 'keyexp', the same net is connected to more than one pin on submodule 'mux41_128'. (LINT-33)
+   Net 'w4[0]' is connected to pins 'c[96]', 'd[96]''.
+Warning: In design 'encryptfsm', output port 'keysel[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'encryptfsm', output port 'sboxinsel' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'encryptfsm', output port 'mixsel' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'encryptfsm', output port 'reginsel' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'decryptfsm', output port 'keysel[0]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'decryptfsm', output port 'sboxinsel' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'decryptfsm', output port 'mixsel' is connected directly to 'logic 1'. (LINT-52)
+Writing ddc file '../out/aestop_unmap.ddc'.
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Using operating conditions 'SS0P99V125C' found in library 'hu40npksdst_ss0p99v125c'.
+Using operating conditions 'SS0P99VN40C' found in library 'hu40npksdst_ss0p99vn40c'.
+Information: Updating graph... (UID-83)
+Warning: Design 'aestop' contains 72 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Updating design information... (UID-85)
+Warning: Design 'aestop' contains 72 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+Warning: there are 12 input ports that only have partial input delay specified. (TIM-212)
+--------------------
+staenc
+stadec
+load_shift
+loadkey
+din[7]
+din[6]
+din[5]
+din[4]
+din[3]
+din[2]
+din[1]
+din[0]
+Warning: Consecutive metal layers have the same preferred routing direction. (PSYN-882)
+Warning: Consecutive metal layers have the same preferred routing direction. (PSYN-882)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Warning: Total of 1530 technology library cells with the same names are found. Run '-check_only' with 'compile_ultra' to see more details. (OPT-1434)
+Information: Failed to find dw_foundation.sldb in the user defined search_path, load it from 'Synopsys Root'. (UISN-70)
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+
+Information: Uniquified 20 instances of design 'sbox_mux'. (OPT-1056)
+Information: Uniquified 16 instances of design 'invsbox_mux'. (OPT-1056)
+Information: Uniquified 32 instances of design 'mux21_8'. (OPT-1056)
+Information: Uniquified 16 instances of design 'byte0203'. (OPT-1056)
+Information: Uniquified 16 instances of design 'byte9bde'. (OPT-1056)
+Information: Uniquified 16 instances of design 'mux41_8'. (OPT-1056)
+Information: Uniquified 2 instances of design 'reg_128_rst'. (OPT-1056)
+Information: Uniquified 32 instances of design 'byte02'. (OPT-1056)
+  Simplifying Design 'aestop'
+
+Information: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files. (TLUP-016)
+Information: Using the HALF_NODE_SCALE_FACTOR in TLUPlus for process scale. (RCEX-086)
+Information: The process parameters are scaled by 0.9 0.9. (RCEX-050)
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.00023 0.00023 (RCEX-011)
+Information: Library Derived Res for layer M1 : 0.0053 0.0053 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M2 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M3 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M4 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M5 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.0002 0.0002 (RCEX-011)
+Information: Library Derived Res for layer M6 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer T4M2 : 0.00031 0.00031 (RCEX-011)
+Information: Library Derived Res for layer T4M2 : 8.3e-05 8.3e-05 (RCEX-011)
+Information: Library Derived Cap for layer RDL : 0.00025 0.00025 (RCEX-011)
+Information: Library Derived Res for layer RDL : 1.6e-05 1.6e-05 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.00022 0.00022 (RCEX-011)
+Information: Library Derived Horizontal Res : 0.0041 0.0041 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.00023 0.00023 (RCEX-011)
+Information: Library Derived Vertical Res : 0.0042 0.0042 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 0.0085 0.0085 (RCEX-011)
+  Loading target library 'hu40npksdst_ss0p99v0c'
+  Loading target library 'hu40npksdst_ss0p99v125c'
+  Loading target library 'hu40npksdst_ss0p9v0c'
+  Loading target library 'hu40npksdst_ss0p9v125c'
+  Loading target library 'hu40npksdst_ss0p9vn40c'
+Loaded alib file '../alib-52/hu40npksdst_ss0p99vn40c.db.alib'
+Loaded alib file '../alib-52/hu40npksdst_ss0p99v0c.db.alib'
+Loaded alib file '../alib-52/hu40npksdst_ss0p99v125c.db.alib'
+Loaded alib file '../alib-52/hu40npksdst_ss0p9v0c.db.alib'
+Loaded alib file '../alib-52/hu40npksdst_ss0p9v125c.db.alib'
+Loaded alib file '../alib-52/hu40npksdst_ss0p9vn40c.db.alib'
+Warning: Operating condition SS0P99V125C set on design aestop has different process,
+voltage and temperatures parameters than the parameters at which target library 
+hu40npksdst_ss0p99vn40c is characterized. Delays may be inaccurate as a result. (OPT-998)
+Information: Ungrouping hierarchy keyexp before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy control before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/sbox_mux0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/invsbox_mux0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_128_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/reg_8_15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/shfreg_128 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/mux41_128 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/rndkreg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy control/encryptfsm before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy control/decryptfsm before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/sbox3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/sbox2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/sbox1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/sbox0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/sbox_mux15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/sbox_mux14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_31 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_30 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_29 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_28 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_27 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_26 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_25 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_24 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_23 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_22 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_21 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_20 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_19 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_18 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_17 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte0203_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux41_8_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy keyexp/deckeyreg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/mux21_8_16 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_0/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_15/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_15/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_14/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_14/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_13/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_13/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_12/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_12/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_11/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_11/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_10/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_10/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_9/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_9/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_8/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_8/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_7/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_7/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_6/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_6/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_5/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_5/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_4/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_4/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_3/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_3/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_2/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_2/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_1/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_1/byte02_0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cryptdap/byte9bde_0/byte02_1 before Pass 1 (OPT-776)
+Information: Ungrouping 145 of 175 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'cryptdap'
+ Implement Synthetic for 'cryptdap'.
+  Processing 'aestop'
+ Implement Synthetic for 'aestop'.
+  Processing 'invsbox_mux_0'
+ Implement Synthetic for 'invsbox_mux_0'.
+  Processing 'sbox_mux_0'
+ Implement Synthetic for 'sbox_mux_0'.
+Memory usage for J5 task 2867 Mbytes -- main task 2867 Mbytes.
+Memory usage for J6 task 2867 Mbytes -- main task 2867 Mbytes.
+Memory usage for J7 task 2867 Mbytes -- main task 2867 Mbytes.
+Memory usage for J8 task 2867 Mbytes -- main task 2867 Mbytes.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'SEN_TIE1_G_1' in the library 'hu40npksdst_ss0p99vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SEN_TIE0_G_1' in the library 'hu40npksdst_ss0p99vn40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+  Beginning Global Optimizations
+  ------------------------------
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:08   23790.0      7.30     881.4      48.7                            355.4799
+    0:02:09   24215.7      3.45     537.4      25.7                            364.7171
+    0:02:09   24215.7      3.45     537.4      25.7                            364.7171
+    0:02:11   25455.6      3.14     507.3      25.5                            394.3567
+    0:02:11   25455.6      3.14     507.3      25.5                            394.3567
+    0:02:15   26478.5      1.55     331.9       6.2                            419.3953
+    0:02:15   26478.5      1.55     331.9       6.2                            419.3953
+    0:02:16   26493.3      1.54     332.3       6.1                            419.7934
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+    0:02:25   28473.3      0.82     182.5       6.2                            465.6315
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v0c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v125c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v0c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v125c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9vn40c.db'
+  Loading design 'aestop'
+Information: The library cell 'SEN_TIE1_G_1' in the library 'hu40npksdst_ss0p99vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'SEN_TIE0_G_1' in the library 'hu40npksdst_ss0p99vn40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+Information: Base Cell (com): cell SEN_AN2_4, w=2240, h=1260 (npin=3)
+Information: Base Cell (seq): cell SEN_FDPRBQ_2, w=4480, h=1260 (npin=3)
+Information: Found HALF_NODE_SCALE_FACTOR 0.900000 in TLUPlus files. (TLUP-016)
+Information: Using the HALF_NODE_SCALE_FACTOR in TLUPlus for process scale. (RCEX-086)
+Information: The process parameters are scaled by 0.9 0.9. (RCEX-050)
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.00023 0.00023 (RCEX-011)
+Information: Library Derived Res for layer M1 : 0.0053 0.0053 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M2 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M3 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M4 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.00021 0.00021 (RCEX-011)
+Information: Library Derived Res for layer M5 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.0002 0.0002 (RCEX-011)
+Information: Library Derived Res for layer M6 : 0.0056 0.0056 (RCEX-011)
+Information: Library Derived Cap for layer T4M2 : 0.00031 0.00031 (RCEX-011)
+Information: Library Derived Res for layer T4M2 : 8.3e-05 8.3e-05 (RCEX-011)
+Information: Library Derived Cap for layer RDL : 0.00025 0.00025 (RCEX-011)
+Information: Library Derived Res for layer RDL : 1.6e-05 1.6e-05 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.00022 0.00022 (RCEX-011)
+Information: Library Derived Horizontal Res : 0.0041 0.0041 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.00023 0.00023 (RCEX-011)
+Information: Library Derived Vertical Res : 0.0042 0.0042 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 0.0085 0.0085 (RCEX-011)
+
+...25%...50%...75%...100% done.
+
+
+ Collecting Buffer Trees ... Found 94
+
+ Processing Buffer Trees ... 
+
+    [10]  10% ...
+    [20]  20% ...
+    [30]  30% ...
+    [40]  40% ...
+    [50]  50% ...
+    [60]  60% ...
+    [70]  70% ...
+    [80]  80% ...
+    [90]  90% ...
+    [94] 100% Done ...
+
+
+Information: Automatic high-fanout synthesis deletes 376 cells. (HFS-802)
+Information: Automatic high-fanout synthesis adds 249 new cells. (PSYN-864)
+
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+
+  Beginning Timing Optimizations
+  ------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:02:58   28270.7      0.63      72.8       0.0                            459.9206
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+    0:02:59   28268.8      0.63      72.9       0.0                            459.8646
+    0:03:04   24250.4      0.64      97.3       0.0                            326.8669
+    0:03:05   24250.4      0.64      97.3       0.0                            326.8669
+    0:03:48   27832.2      0.12      14.0       0.0                            415.9278
+    0:03:48   27832.2      0.12      14.0       0.0                            415.9278
+    0:03:53   29122.9      0.09       4.1       0.0                            449.0925
+    0:03:53   29122.9      0.09       4.1       0.0                            449.0925
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:03:59   29552.6      0.00       0.0       0.0                            459.7702
+    0:04:00   29552.6      0.00       0.0       0.0                            459.7702
+    0:04:00   29552.6      0.00       0.0       0.0                            459.7702
+    0:04:00   29552.6      0.00       0.0       0.0                            459.7702
+    0:04:02   29410.5      0.07       0.3       0.0                            454.7097
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+
+  Beginning High Effort Optimization Phase
+  ----------------------------------------
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+
+  Beginning Timing Optimization
+  -----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:04:02   29410.5      0.07       0.3       0.0                            454.7097
+    0:04:02   29410.5      0.07       0.3       0.0                            454.7097
+    0:04:05   29391.6      0.00       0.0       0.0                            455.1046
+    0:04:06   29391.6      0.00       0.0       0.0                            455.1046
+    0:04:06   29391.6      0.00       0.0       0.0                            455.1046
+    0:04:06   29391.6      0.00       0.0       0.0                            455.1046
+    0:04:06   29391.6      0.00       0.0       0.0                            455.1046
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+
+
+  High Effort Optimization Phase Complete
+  ---------------------------------------
+
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+
+Threshold voltage group cell usage:
+>> SVT40 100.00%
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99vn40c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v0c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p99v125c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v0c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9v125c.db'
+Loading db file '/home/qst/hu40nmlib/1.02a/liberty/logic_synth/hu40npksdst_ss0p9vn40c.db'
+  Loading target library 'hu40npksdst_ss0p99v0c'
+  Loading target library 'hu40npksdst_ss0p99v125c'
+  Loading target library 'hu40npksdst_ss0p9v0c'
+  Loading target library 'hu40npksdst_ss0p9v125c'
+  Loading target library 'hu40npksdst_ss0p9vn40c'
+Writing ddc file '../out/aestop.mapped.ddc'.
+Writing verilog file '/home/qst/workspace2105/aes/dc/out/aestop.mapped.v'.
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/qst/workspace2105/aes/dc/out/aestop.mapped.sdf'. (WT-3)
+1

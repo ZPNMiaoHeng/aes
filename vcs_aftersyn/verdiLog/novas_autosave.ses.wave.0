@@ -1,0 +1,78 @@
+Magic 271485
+Revision Verdi3_K-2015.09-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 1920 661 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/qst/workspace2105/aes/vcs_aftersyn/aestop.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 898320.000000 1193820.000000
+cursor 631127.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 8
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/qst/workspace2105/aes/vcs_aftersyn/aestop.fsdb"
+addSignal -h 15 /aestop_tb2/clk
+addSignal -h 15 -UNSIGNED -HEX -holdScope din[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope dout[7:0]
+addSignal -h 15 -holdScope load_shift
+addSignal -h 15 -holdScope loadkey
+addSignal -h 15 -holdScope rst
+addSignal -h 15 -holdScope stadec
+addSignal -h 15 -holdScope staenc
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/qst/workspace2105/aes/vcs_aftersyn/aestop.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/SEN_ADDF42_0P5"
+"/aestop_tb2"
+
+SCOPE_LIST_BEGIN
+"/SEN_ADDF42_0P5"
+"/aestop_tb2/aestop"
+"/aestop_tb2"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
